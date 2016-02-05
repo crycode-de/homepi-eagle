@@ -11822,6 +11822,18 @@ Picofuse/slow Littlefuse</description>
 <part name="R25" library="resistor" deviceset="R-EU_" device="0204/2V" value="10k"/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="F1" library="fuse" deviceset="LITTLEFUSE" device="" value="250mA"/>
+<part name="R26" library="resistor" deviceset="R-EU_" device="0204/2V" value="10k"/>
+<part name="GND5" library="supply1" deviceset="GND" device=""/>
+<part name="R27" library="resistor" deviceset="R-EU_" device="0204/2V" value="10k"/>
+<part name="GND7" library="supply1" deviceset="GND" device=""/>
+<part name="R28" library="resistor" deviceset="R-EU_" device="0204/2V" value="10k"/>
+<part name="GND10" library="supply1" deviceset="GND" device=""/>
+<part name="R29" library="resistor" deviceset="R-EU_" device="0204/2V" value="10k"/>
+<part name="GND11" library="supply1" deviceset="GND" device=""/>
+<part name="R30" library="resistor" deviceset="R-EU_" device="0204/2V" value="10k"/>
+<part name="GND14" library="supply1" deviceset="GND" device=""/>
+<part name="R31" library="resistor" deviceset="R-EU_" device="0204/2V" value="10k"/>
+<part name="GND22" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11960,6 +11972,18 @@ Picofuse/slow Littlefuse</description>
 <instance part="R25" gate="G$1" x="-55.88" y="76.2" rot="R90"/>
 <instance part="+3V11" gate="G$1" x="-55.88" y="88.9"/>
 <instance part="F1" gate="A" x="-104.14" y="106.68"/>
+<instance part="R26" gate="G$1" x="121.92" y="345.44" rot="R90"/>
+<instance part="GND5" gate="1" x="121.92" y="335.28"/>
+<instance part="R27" gate="G$1" x="121.92" y="284.48" rot="R90"/>
+<instance part="GND7" gate="1" x="121.92" y="274.32"/>
+<instance part="R28" gate="G$1" x="121.92" y="220.98" rot="R90"/>
+<instance part="GND10" gate="1" x="121.92" y="210.82"/>
+<instance part="R29" gate="G$1" x="121.92" y="160.02" rot="R90"/>
+<instance part="GND11" gate="1" x="121.92" y="149.86"/>
+<instance part="R30" gate="G$1" x="121.92" y="96.52" rot="R90"/>
+<instance part="GND14" gate="1" x="121.92" y="86.36"/>
+<instance part="R31" gate="G$1" x="121.92" y="35.56" rot="R90"/>
+<instance part="GND22" gate="1" x="121.92" y="25.4"/>
 </instances>
 <busses>
 </busses>
@@ -12215,6 +12239,36 @@ Picofuse/slow Littlefuse</description>
 <pinref part="SV3" gate="1" pin="30"/>
 <wire x1="-109.22" y1="104.14" x2="-116.84" y2="104.14" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="R26" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="337.82" x2="121.92" y2="340.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="R27" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="276.86" x2="121.92" y2="279.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND10" gate="1" pin="GND"/>
+<pinref part="R28" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="213.36" x2="121.92" y2="215.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND11" gate="1" pin="GND"/>
+<pinref part="R29" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="152.4" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND14" gate="1" pin="GND"/>
+<pinref part="R30" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="88.9" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND22" gate="1" pin="GND"/>
+<pinref part="R31" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="27.94" x2="121.92" y2="30.48" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -12226,13 +12280,17 @@ Picofuse/slow Littlefuse</description>
 <net name="N$4" class="0">
 <segment>
 <pinref part="IC5" gate="A" pin="I1"/>
-<wire x1="119.38" y1="45.72" x2="132.08" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="45.72" x2="121.92" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="OK6" gate="G$1" pin="EMI"/>
 <pinref part="IC3" gate="B" pin="I"/>
+<wire x1="121.92" y1="45.72" x2="132.08" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="45.72" x2="167.64" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="101.6" x2="132.08" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="101.6" x2="132.08" y2="45.72" width="0.1524" layer="91"/>
 <junction x="132.08" y="45.72"/>
+<pinref part="R31" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="40.64" x2="121.92" y2="45.72" width="0.1524" layer="91"/>
+<junction x="121.92" y="45.72"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -12267,12 +12325,16 @@ Picofuse/slow Littlefuse</description>
 <segment>
 <pinref part="OK5" gate="G$1" pin="EMI"/>
 <pinref part="IC5" gate="B" pin="I0"/>
-<wire x1="119.38" y1="106.68" x2="134.62" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="106.68" x2="121.92" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="A" pin="I"/>
+<wire x1="121.92" y1="106.68" x2="134.62" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="106.68" x2="167.64" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="50.8" x2="134.62" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="50.8" x2="134.62" y2="106.68" width="0.1524" layer="91"/>
 <junction x="134.62" y="106.68"/>
+<pinref part="R30" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="101.6" x2="121.92" y2="106.68" width="0.1524" layer="91"/>
+<junction x="121.92" y="106.68"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -12304,22 +12366,30 @@ Picofuse/slow Littlefuse</description>
 <pinref part="IC5" gate="C" pin="I1"/>
 <wire x1="167.64" y1="170.18" x2="132.08" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="D" pin="I"/>
-<wire x1="132.08" y1="170.18" x2="119.38" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="170.18" x2="121.92" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="170.18" x2="119.38" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="226.06" x2="132.08" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="226.06" x2="132.08" y2="170.18" width="0.1524" layer="91"/>
 <junction x="132.08" y="170.18"/>
+<pinref part="R29" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="165.1" x2="121.92" y2="170.18" width="0.1524" layer="91"/>
+<junction x="121.92" y="170.18"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="OK3" gate="G$1" pin="EMI"/>
 <pinref part="IC5" gate="D" pin="I0"/>
-<wire x1="119.38" y1="231.14" x2="134.62" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="231.14" x2="121.92" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="C" pin="I"/>
+<wire x1="121.92" y1="231.14" x2="134.62" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="231.14" x2="167.64" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="175.26" x2="134.62" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="175.26" x2="134.62" y2="231.14" width="0.1524" layer="91"/>
 <junction x="134.62" y="231.14"/>
+<pinref part="R28" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="226.06" x2="121.92" y2="231.14" width="0.1524" layer="91"/>
+<junction x="121.92" y="231.14"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -12379,24 +12449,32 @@ Picofuse/slow Littlefuse</description>
 <segment>
 <pinref part="OK2" gate="G$1" pin="EMI"/>
 <wire x1="167.64" y1="294.64" x2="132.08" y2="294.64" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="294.64" x2="119.38" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="294.64" x2="121.92" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="294.64" x2="119.38" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="350.52" x2="132.08" y2="350.52" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="350.52" x2="132.08" y2="294.64" width="0.1524" layer="91"/>
 <junction x="132.08" y="294.64"/>
 <pinref part="IC3" gate="F" pin="I"/>
 <pinref part="IC4" gate="C" pin="I1"/>
+<pinref part="R27" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="289.56" x2="121.92" y2="294.64" width="0.1524" layer="91"/>
+<junction x="121.92" y="294.64"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
 <pinref part="OK1" gate="G$1" pin="EMI"/>
-<wire x1="119.38" y1="355.6" x2="134.62" y2="355.6" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="355.6" x2="121.92" y2="355.6" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="355.6" x2="134.62" y2="355.6" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="355.6" x2="167.64" y2="355.6" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="299.72" x2="134.62" y2="299.72" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="299.72" x2="134.62" y2="355.6" width="0.1524" layer="91"/>
 <junction x="134.62" y="355.6"/>
 <pinref part="IC3" gate="E" pin="I"/>
 <pinref part="IC4" gate="D" pin="I0"/>
+<pinref part="R26" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="350.52" x2="121.92" y2="355.6" width="0.1524" layer="91"/>
+<junction x="121.92" y="355.6"/>
 </segment>
 </net>
 <net name="N$36" class="0">
