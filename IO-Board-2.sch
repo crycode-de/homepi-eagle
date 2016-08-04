@@ -9168,8 +9168,8 @@ Source: 008-0260-0_E.pdf</description>
 <part name="VCCIO.22" library="testpad" deviceset="TP" device="PAD1-13" value="TPPAD1-13"/>
 <part name="VCCIO.23" library="testpad" deviceset="TP" device="PAD1-13" value="TPPAD1-13"/>
 <part name="VCCIO.24" library="testpad" deviceset="TP" device="PAD1-13" value="TPPAD1-13"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="0204/2V" value="10k"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="0204/2V" value="18k"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="0204/5" value="10k"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="0204/5" value="18k"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="1WIRE.5" library="testpad" deviceset="TP" device="PAD1-13" value="TPPAD1-13"/>
 <part name="+3V3.5" library="testpad" deviceset="TP" device="PAD1-13" value="TPPAD1-13"/>

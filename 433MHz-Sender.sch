@@ -14977,9 +14977,9 @@ Source: &lt;a href="http://www.national.com/ds/LM/LM2936.pdf"&gt; Data sheet&lt;
 <part name="433_DATA" library="testpad" deviceset="TP" device="PAD1-13"/>
 <part name="433_GND" library="testpad" deviceset="TP" device="PAD1-13"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="0204/5" value="10k"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="0204/5" value="10k"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="0204/5" value="10k"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="0204/5" value="100k"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="0204/5" value="100k"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="0204/5" value="100k"/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="3MM"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="0204/5" value="1k5"/>

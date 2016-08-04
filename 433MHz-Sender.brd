@@ -1656,9 +1656,9 @@ design rules under a new name.</description>
 <element name="C1" library="rcl" package="C025-025X050" value="100nF" x="8.89" y="2.54"/>
 <element name="G1" library="bat-gp23a" package="GP23A" value="GP23A" x="15.24" y="-3.81" rot="MR0"/>
 <element name="LED1" library="led" package="LED3MM" value="" x="29.2" y="42.55"/>
-<element name="R1" library="rcl" package="0204/5" value="10k" x="3.81" y="25.4" rot="R180"/>
-<element name="R2" library="rcl" package="0204/5" value="10k" x="8.89" y="26.67"/>
-<element name="R3" library="rcl" package="0204/5" value="10k" x="3.81" y="15.24" rot="R180"/>
+<element name="R1" library="rcl" package="0204/5" value="100k" x="3.81" y="25.4" rot="R180"/>
+<element name="R2" library="rcl" package="0204/5" value="100k" x="8.89" y="26.67"/>
+<element name="R3" library="rcl" package="0204/5" value="100k" x="3.81" y="15.24" rot="R180"/>
 <element name="R4" library="rcl" package="0204/5" value="1k5" x="22.86" y="42.545"/>
 <element name="S1" library="switch-omron" package="B3F-10XX" value="" x="7" y="31.76">
 <attribute name="MPN" value="B3F-1000" x="7" y="31.76" size="1.778" layer="27" display="off"/>
