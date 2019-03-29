@@ -12630,7 +12630,7 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <wire x1="243.84" y1="43.18" x2="243.84" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+5V_1WIRE" class="0">
+<net name="!PI_RESET" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="C7"/>
 <wire x1="53.34" y1="73.66" x2="58.42" y2="73.66" width="0.1524" layer="91"/>

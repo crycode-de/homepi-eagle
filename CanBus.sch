@@ -8615,7 +8615,7 @@ Source: avr.lbr</description>
 <parts>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="X1" library="con-vg" deviceset="MAC64L" device=""/>
-<part name="IC1" library="mcp2515_2551_2562" deviceset="MCP2515" device="-I/P"/>
+<part name="IC1" library="mcp2515_2551_2562" deviceset="MCP2515" device="-I/SO" value="MCP2515-I/SO"/>
 <part name="J1" library="con-amp" deviceset="555141-1" device=""/>
 <part name="U1" library="mcp2515_2551_2562" deviceset="MCP2562" device="-E/P"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="050-024X044" value="100nF"/>
@@ -8630,7 +8630,7 @@ Source: avr.lbr</description>
 <part name="C4" library="rcl" deviceset="C-EU" device="050-024X044" value="22pF"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="050-024X044" value="22pF"/>
 <part name="IC2" library="atmel" deviceset="MEGA8-P" device=""/>
-<part name="IC3" library="mcp2515_2551_2562" deviceset="MCP2515" device="-I/P"/>
+<part name="IC3" library="mcp2515_2551_2562" deviceset="MCP2515" device="-I/SO" value="MCP2515-I/SO"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="050-024X044" value="100nF"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="0204/5" value="4k7"/>
 <part name="Q2" library="crystal" deviceset="CRYSTAL" device="HC49S" value="16MHz"/>
