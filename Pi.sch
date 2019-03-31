@@ -13000,19 +13000,19 @@ Jan Kandziora &amp;lt;jjj@gmx.de&amp;gt;</description>
 <parts>
 <part name="X1" library="raspberrypi_bastelstube_v13" deviceset="RASPI_GPIO_B+#" device="_PIN" value="RASPI_GPIO_B+#_PIN"/>
 <part name="RPI1" library="homepi" deviceset="RASPBERRYPI-PLATINE" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="0204/7" value="560R"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="560R"/>
 <part name="LED1" library="led" deviceset="LED" device="3MM" value="gn 2mA"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="0204/7" value="560R"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="560R"/>
 <part name="LED2" library="led" deviceset="LED" device="3MM" value="ge 2mA"/>
 <part name="X2" library="con-phoenix-508" deviceset="MSTBV2" device="" value="HDD, 5V 700mA"/>
 <part name="X3" library="con-vg" deviceset="MAC64L" device=""/>
-<part name="JP2" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JP2" library="pinhead" deviceset="PINHD-1X1" device="" value="PI Reset"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="OK1" library="homepi" deviceset="CNY17" device="SMD"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="0204/5" value="330R"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R1206" value="330R"/>
 <part name="C1" library="rcl" deviceset="CPOL-EU" device="E2-5" value="47µF 16V Low-ESR"/>
 <part name="IC1" library="1wire" deviceset="DS18B20" device=""/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="0204/7" value="4k7"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R1206" value="4k7"/>
 </parts>
 <sheets>
 <sheet>
@@ -13031,7 +13031,7 @@ Rev. 2019/03</text>
 <instance part="X2" gate="-1" x="149.86" y="152.4" rot="R180"/>
 <instance part="X2" gate="-2" x="149.86" y="157.48" rot="R180"/>
 <instance part="X3" gate="G$1" x="53.34" y="127"/>
-<instance part="JP2" gate="G$1" x="223.52" y="55.88"/>
+<instance part="JP2" gate="G$1" x="228.6" y="55.88"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="OK1" gate="G$1" x="200.66" y="55.88"/>
 <instance part="R3" gate="G$1" x="180.34" y="58.42"/>
@@ -13098,6 +13098,11 @@ Rev. 2019/03</text>
 <wire x1="27.94" y1="30.48" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
 <junction x="27.94" y="30.48"/>
 </segment>
+<segment>
+<pinref part="X3" gate="G$1" pin="C7"/>
+<wire x1="60.96" y1="149.86" x2="66.04" y2="149.86" width="0.1524" layer="91"/>
+<label x="66.04" y="149.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SPI_MOSI" class="0">
 <segment>
@@ -13106,9 +13111,9 @@ Rev. 2019/03</text>
 <label x="215.9" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="A9"/>
-<wire x1="45.72" y1="144.78" x2="40.64" y2="144.78" width="0.1524" layer="91"/>
-<label x="40.64" y="144.78" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X3" gate="G$1" pin="C9"/>
+<wire x1="60.96" y1="144.78" x2="66.04" y2="144.78" width="0.1524" layer="91"/>
+<label x="66.04" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI_MISO" class="0">
@@ -13118,9 +13123,9 @@ Rev. 2019/03</text>
 <label x="215.9" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="A10"/>
-<wire x1="45.72" y1="142.24" x2="40.64" y2="142.24" width="0.1524" layer="91"/>
-<label x="40.64" y="142.24" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X3" gate="G$1" pin="A9"/>
+<wire x1="45.72" y1="144.78" x2="40.64" y2="144.78" width="0.1524" layer="91"/>
+<label x="40.64" y="144.78" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="SPI_SCLK" class="0">
@@ -13130,9 +13135,9 @@ Rev. 2019/03</text>
 <label x="215.9" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="A11"/>
-<wire x1="45.72" y1="139.7" x2="40.64" y2="139.7" width="0.1524" layer="91"/>
-<label x="40.64" y="139.7" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X3" gate="G$1" pin="C10"/>
+<wire x1="60.96" y1="142.24" x2="66.04" y2="142.24" width="0.1524" layer="91"/>
+<label x="66.04" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI_CE0" class="0">
@@ -13142,9 +13147,9 @@ Rev. 2019/03</text>
 <label x="215.9" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="A12"/>
-<wire x1="45.72" y1="137.16" x2="40.64" y2="137.16" width="0.1524" layer="91"/>
-<label x="40.64" y="137.16" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X3" gate="G$1" pin="A10"/>
+<wire x1="45.72" y1="142.24" x2="40.64" y2="142.24" width="0.1524" layer="91"/>
+<label x="40.64" y="142.24" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="SPI_CE1" class="0">
@@ -13154,9 +13159,9 @@ Rev. 2019/03</text>
 <label x="215.9" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="A13"/>
-<wire x1="45.72" y1="134.62" x2="40.64" y2="134.62" width="0.1524" layer="91"/>
-<label x="40.64" y="134.62" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X3" gate="G$1" pin="C11"/>
+<wire x1="60.96" y1="139.7" x2="66.04" y2="139.7" width="0.1524" layer="91"/>
+<label x="66.04" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.05" class="0">
@@ -13166,9 +13171,9 @@ Rev. 2019/03</text>
 <label x="175.26" y="111.76" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="A14"/>
-<wire x1="45.72" y1="132.08" x2="40.64" y2="132.08" width="0.1524" layer="91"/>
-<label x="40.64" y="132.08" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X3" gate="G$1" pin="C14"/>
+<wire x1="60.96" y1="132.08" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
+<label x="66.04" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.06" class="0">
@@ -13178,9 +13183,9 @@ Rev. 2019/03</text>
 <label x="175.26" y="109.22" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="A15"/>
-<wire x1="45.72" y1="129.54" x2="40.64" y2="129.54" width="0.1524" layer="91"/>
-<label x="40.64" y="129.54" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X3" gate="G$1" pin="C15"/>
+<wire x1="60.96" y1="129.54" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
+<label x="66.04" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.12" class="0">
@@ -13190,9 +13195,9 @@ Rev. 2019/03</text>
 <label x="175.26" y="106.68" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="A16"/>
-<wire x1="45.72" y1="127" x2="40.64" y2="127" width="0.1524" layer="91"/>
-<label x="40.64" y="127" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X3" gate="G$1" pin="C16"/>
+<wire x1="60.96" y1="127" x2="66.04" y2="127" width="0.1524" layer="91"/>
+<label x="66.04" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.13" class="0">
@@ -13202,9 +13207,9 @@ Rev. 2019/03</text>
 <label x="175.26" y="104.14" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="A17"/>
-<wire x1="45.72" y1="124.46" x2="40.64" y2="124.46" width="0.1524" layer="91"/>
-<label x="40.64" y="124.46" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X3" gate="G$1" pin="C17"/>
+<wire x1="60.96" y1="124.46" x2="66.04" y2="124.46" width="0.1524" layer="91"/>
+<label x="66.04" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.16" class="0">
@@ -13214,9 +13219,9 @@ Rev. 2019/03</text>
 <label x="175.26" y="99.06" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="A18"/>
-<wire x1="45.72" y1="121.92" x2="40.64" y2="121.92" width="0.1524" layer="91"/>
-<label x="40.64" y="121.92" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X3" gate="G$1" pin="C18"/>
+<wire x1="60.96" y1="121.92" x2="66.04" y2="121.92" width="0.1524" layer="91"/>
+<label x="66.04" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.17" class="0">
@@ -13226,9 +13231,9 @@ Rev. 2019/03</text>
 <label x="175.26" y="134.62" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="A19"/>
-<wire x1="45.72" y1="119.38" x2="40.64" y2="119.38" width="0.1524" layer="91"/>
-<label x="40.64" y="119.38" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X3" gate="G$1" pin="C19"/>
+<wire x1="60.96" y1="119.38" x2="66.04" y2="119.38" width="0.1524" layer="91"/>
+<label x="66.04" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.18" class="0">
@@ -13238,9 +13243,9 @@ Rev. 2019/03</text>
 <label x="175.26" y="132.08" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="A20"/>
-<wire x1="45.72" y1="116.84" x2="40.64" y2="116.84" width="0.1524" layer="91"/>
-<label x="40.64" y="116.84" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X3" gate="G$1" pin="C20"/>
+<wire x1="60.96" y1="116.84" x2="66.04" y2="116.84" width="0.1524" layer="91"/>
+<label x="66.04" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.19" class="0">
@@ -13250,9 +13255,9 @@ Rev. 2019/03</text>
 <label x="175.26" y="101.6" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="A21"/>
-<wire x1="45.72" y1="114.3" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
-<label x="40.64" y="114.3" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X3" gate="G$1" pin="C21"/>
+<wire x1="60.96" y1="114.3" x2="66.04" y2="114.3" width="0.1524" layer="91"/>
+<label x="66.04" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.20" class="0">
@@ -13262,9 +13267,9 @@ Rev. 2019/03</text>
 <label x="175.26" y="93.98" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="A22"/>
-<wire x1="45.72" y1="111.76" x2="40.64" y2="111.76" width="0.1524" layer="91"/>
-<label x="40.64" y="111.76" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X3" gate="G$1" pin="C22"/>
+<wire x1="60.96" y1="111.76" x2="66.04" y2="111.76" width="0.1524" layer="91"/>
+<label x="66.04" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.21" class="0">
@@ -13274,9 +13279,9 @@ Rev. 2019/03</text>
 <label x="175.26" y="91.44" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="A23"/>
-<wire x1="45.72" y1="109.22" x2="40.64" y2="109.22" width="0.1524" layer="91"/>
-<label x="40.64" y="109.22" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X3" gate="G$1" pin="C23"/>
+<wire x1="60.96" y1="109.22" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
+<label x="66.04" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.22" class="0">
@@ -13286,9 +13291,9 @@ Rev. 2019/03</text>
 <label x="175.26" y="127" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="A24"/>
-<wire x1="45.72" y1="106.68" x2="40.64" y2="106.68" width="0.1524" layer="91"/>
-<label x="40.64" y="106.68" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X3" gate="G$1" pin="C24"/>
+<wire x1="60.96" y1="106.68" x2="66.04" y2="106.68" width="0.1524" layer="91"/>
+<label x="66.04" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.23" class="0">
@@ -13298,9 +13303,9 @@ Rev. 2019/03</text>
 <label x="175.26" y="124.46" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="A25"/>
-<wire x1="45.72" y1="104.14" x2="40.64" y2="104.14" width="0.1524" layer="91"/>
-<label x="40.64" y="104.14" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X3" gate="G$1" pin="C25"/>
+<wire x1="60.96" y1="104.14" x2="66.04" y2="104.14" width="0.1524" layer="91"/>
+<label x="66.04" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.24" class="0">
@@ -13310,9 +13315,9 @@ Rev. 2019/03</text>
 <label x="175.26" y="121.92" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="A26"/>
-<wire x1="45.72" y1="101.6" x2="40.64" y2="101.6" width="0.1524" layer="91"/>
-<label x="40.64" y="101.6" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X3" gate="G$1" pin="C26"/>
+<wire x1="60.96" y1="101.6" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
+<label x="66.04" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.25" class="0">
@@ -13322,9 +13327,9 @@ Rev. 2019/03</text>
 <label x="175.26" y="119.38" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="A27"/>
-<wire x1="45.72" y1="99.06" x2="40.64" y2="99.06" width="0.1524" layer="91"/>
-<label x="40.64" y="99.06" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X3" gate="G$1" pin="C27"/>
+<wire x1="60.96" y1="99.06" x2="66.04" y2="99.06" width="0.1524" layer="91"/>
+<label x="66.04" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.26" class="0">
@@ -13367,6 +13372,11 @@ Rev. 2019/03</text>
 <wire x1="27.94" y1="43.18" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
 <label x="27.94" y="45.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="58.42" x2="170.18" y2="58.42" width="0.1524" layer="91"/>
+<label x="170.18" y="58.42" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="N$15" class="0">
 <segment>
@@ -13397,11 +13407,6 @@ Rev. 2019/03</text>
 <pinref part="X3" gate="G$1" pin="C28"/>
 <wire x1="60.96" y1="96.52" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
 <label x="66.04" y="96.52" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="58.42" x2="170.18" y2="58.42" width="0.1524" layer="91"/>
-<label x="170.18" y="58.42" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="+5V_INT" class="0">
@@ -13472,42 +13477,28 @@ Rev. 2019/03</text>
 <label x="66.04" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="RXD" class="0">
+<net name="PI_RXD" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="RXD"/>
 <wire x1="210.82" y1="116.84" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
 <label x="215.9" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="C25"/>
-<wire x1="60.96" y1="104.14" x2="66.04" y2="104.14" width="0.1524" layer="91"/>
-<label x="66.04" y="104.14" size="1.778" layer="95"/>
+<pinref part="X3" gate="G$1" pin="C12"/>
+<wire x1="60.96" y1="137.16" x2="66.04" y2="137.16" width="0.1524" layer="91"/>
+<label x="66.04" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="TXD" class="0">
+<net name="PI_TXD" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="TXD"/>
 <wire x1="210.82" y1="119.38" x2="215.9" y2="119.38" width="0.1524" layer="91"/>
 <label x="215.9" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="C24"/>
-<wire x1="60.96" y1="106.68" x2="66.04" y2="106.68" width="0.1524" layer="91"/>
-<label x="66.04" y="106.68" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="CANL" class="0">
-<segment>
-<pinref part="X3" gate="G$1" pin="C26"/>
-<wire x1="60.96" y1="101.6" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
-<label x="66.04" y="101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="CANH" class="0">
-<segment>
-<pinref part="X3" gate="G$1" pin="C27"/>
-<wire x1="60.96" y1="99.06" x2="66.04" y2="99.06" width="0.1524" layer="91"/>
-<label x="66.04" y="99.06" size="1.778" layer="95"/>
+<pinref part="X3" gate="G$1" pin="A12"/>
+<wire x1="45.72" y1="137.16" x2="40.64" y2="137.16" width="0.1524" layer="91"/>
+<label x="40.64" y="137.16" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -13629,7 +13620,7 @@ Rev. 2019/03</text>
 <segment>
 <pinref part="JP2" gate="G$1" pin="1"/>
 <pinref part="OK1" gate="G$1" pin="COL"/>
-<wire x1="220.98" y1="55.88" x2="208.28" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="55.88" x2="208.28" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!PI_RESET" class="0">
@@ -13639,14 +13630,40 @@ Rev. 2019/03</text>
 <label x="170.18" y="50.8" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G$1" pin="C7"/>
-<wire x1="60.96" y1="149.86" x2="66.04" y2="149.86" width="0.1524" layer="91"/>
-<label x="66.04" y="149.86" size="1.778" layer="95"/>
+<pinref part="X3" gate="G$1" pin="A26"/>
+<wire x1="45.72" y1="101.6" x2="40.64" y2="101.6" width="0.1524" layer="91"/>
+<label x="40.64" y="101.6" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,187.96,147.32,X1,5V0A,+5V_INT,,,"/>
+<approved hash="204,1,200.66,147.32,X1,3V3A,,,,"/>
+<approved hash="104,1,210.82,111.76,X1,GND_A,GND,,,"/>
+<approved hash="104,1,190.5,147.32,X1,5V0B,+5V_INT,,,"/>
+<approved hash="204,1,203.2,147.32,X1,3V3B,,,,"/>
+<approved hash="104,1,210.82,109.22,X1,GND_B,GND,,,"/>
+<approved hash="104,1,210.82,106.68,X1,GND_C,GND,,,"/>
+<approved hash="104,1,210.82,104.14,X1,GND_D,GND,,,"/>
+<approved hash="104,1,210.82,101.6,X1,GND_E,GND,,,"/>
+<approved hash="103,1,180.34,111.76,X1,GPIO05,GPIO.05,,,"/>
+<approved hash="103,1,180.34,109.22,X1,GPIO06,GPIO.06,,,"/>
+<approved hash="103,1,180.34,106.68,X1,GPIO12,GPIO.12,,,"/>
+<approved hash="103,1,180.34,104.14,X1,GPIO13,GPIO.13,,,"/>
+<approved hash="103,1,180.34,101.6,X1,GPIO19,GPIO.19,,,"/>
+<approved hash="103,1,180.34,99.06,X1,GPIO16,GPIO.16,,,"/>
+<approved hash="103,1,180.34,96.52,X1,GPIO26,GPIO.26,,,"/>
+<approved hash="103,1,180.34,93.98,X1,GPIO20,GPIO.20,,,"/>
+<approved hash="103,1,180.34,91.44,X1,GPIO21,GPIO.21,,,"/>
+<approved hash="104,1,210.82,99.06,X1,GND_F,GND,,,"/>
+<approved hash="104,1,210.82,96.52,X1,GND_G,GND,,,"/>
+<approved hash="104,1,210.82,93.98,X1,GND_H,GND,,,"/>
+<approved hash="104,1,40.64,30.48,IC1_1W,1W,1WIRE,,,"/>
+<approved hash="104,1,50.8,38.1,IC1P,VDD,+5V_EXT,,,"/>
+<approved hash="113,1,130.071,89.431,FRAME1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

@@ -552,6 +552,8 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <sheets>
 <sheet>
 <plain>
+<text x="88.9" y="55.88" size="1.778" layer="97">GPIO.05 - Rollläden Taster
+GPIO.06 - CAN-Bus Interrupt</text>
 </plain>
 <instances>
 <instance part="X1" gate="G$1" x="43.18" y="53.34"/>
@@ -589,138 +591,129 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <wire x1="35.56" y1="76.2" x2="30.48" y2="76.2" width="0.1524" layer="91"/>
 <label x="30.48" y="76.2" size="1.778" layer="95" rot="MR0"/>
 </segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="C7"/>
+<wire x1="50.8" y1="76.2" x2="55.88" y2="76.2" width="0.1524" layer="91"/>
+<label x="55.88" y="76.2" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="SPI_MOSI" class="0">
+<net name="SPI_MISO" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="A9"/>
 <wire x1="35.56" y1="71.12" x2="30.48" y2="71.12" width="0.1524" layer="91"/>
 <label x="30.48" y="71.12" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="SPI_MISO" class="0">
+<net name="SPI_SCLK" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="C10"/>
+<wire x1="50.8" y1="68.58" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
+<label x="55.88" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SPI_CE0" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="A10"/>
 <wire x1="35.56" y1="68.58" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
 <label x="30.48" y="68.58" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="SPI_SCLK" class="0">
-<segment>
-<pinref part="X1" gate="G$1" pin="A11"/>
-<wire x1="35.56" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
-<label x="30.48" y="66.04" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="SPI_CE0" class="0">
-<segment>
-<pinref part="X1" gate="G$1" pin="A12"/>
-<wire x1="35.56" y1="63.5" x2="30.48" y2="63.5" width="0.1524" layer="91"/>
-<label x="30.48" y="63.5" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
 <net name="SPI_CE1" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="A13"/>
-<wire x1="35.56" y1="60.96" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
-<label x="30.48" y="60.96" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="GPIO.05" class="0">
-<segment>
-<pinref part="X1" gate="G$1" pin="A14"/>
-<wire x1="35.56" y1="58.42" x2="30.48" y2="58.42" width="0.1524" layer="91"/>
-<label x="30.48" y="58.42" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X1" gate="G$1" pin="C11"/>
+<wire x1="50.8" y1="66.04" x2="55.88" y2="66.04" width="0.1524" layer="91"/>
+<label x="55.88" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.06" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="A15"/>
-<wire x1="35.56" y1="55.88" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
-<label x="30.48" y="55.88" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X1" gate="G$1" pin="C15"/>
+<wire x1="50.8" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
+<label x="55.88" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.12" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="A16"/>
-<wire x1="35.56" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
-<label x="30.48" y="53.34" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X1" gate="G$1" pin="C16"/>
+<wire x1="50.8" y1="53.34" x2="55.88" y2="53.34" width="0.1524" layer="91"/>
+<label x="55.88" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.13" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="A17"/>
-<wire x1="35.56" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
-<label x="30.48" y="50.8" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X1" gate="G$1" pin="C17"/>
+<wire x1="50.8" y1="50.8" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
+<label x="55.88" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.16" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="A18"/>
-<wire x1="35.56" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
-<label x="30.48" y="48.26" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X1" gate="G$1" pin="C18"/>
+<wire x1="50.8" y1="48.26" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
+<label x="55.88" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.17" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="A19"/>
-<wire x1="35.56" y1="45.72" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
-<label x="30.48" y="45.72" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X1" gate="G$1" pin="C19"/>
+<wire x1="50.8" y1="45.72" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
+<label x="55.88" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.18" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="A20"/>
-<wire x1="35.56" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
-<label x="30.48" y="43.18" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X1" gate="G$1" pin="C20"/>
+<wire x1="50.8" y1="43.18" x2="55.88" y2="43.18" width="0.1524" layer="91"/>
+<label x="55.88" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.19" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="A21"/>
-<wire x1="35.56" y1="40.64" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
-<label x="30.48" y="40.64" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X1" gate="G$1" pin="C21"/>
+<wire x1="50.8" y1="40.64" x2="55.88" y2="40.64" width="0.1524" layer="91"/>
+<label x="55.88" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.20" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="A22"/>
-<wire x1="35.56" y1="38.1" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
-<label x="30.48" y="38.1" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X1" gate="G$1" pin="C22"/>
+<wire x1="50.8" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
+<label x="55.88" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.21" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="A23"/>
-<wire x1="35.56" y1="35.56" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
-<label x="30.48" y="35.56" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X1" gate="G$1" pin="C23"/>
+<wire x1="50.8" y1="35.56" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
+<label x="55.88" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.22" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="A24"/>
-<wire x1="35.56" y1="33.02" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
-<label x="30.48" y="33.02" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X1" gate="G$1" pin="C24"/>
+<wire x1="50.8" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
+<label x="55.88" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.23" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="A25"/>
-<wire x1="35.56" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
-<label x="30.48" y="30.48" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X1" gate="G$1" pin="C25"/>
+<wire x1="50.8" y1="30.48" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
+<label x="55.88" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.24" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="A26"/>
-<wire x1="35.56" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
-<label x="30.48" y="27.94" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X1" gate="G$1" pin="C26"/>
+<wire x1="50.8" y1="27.94" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
+<label x="55.88" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO.25" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="A27"/>
-<wire x1="35.56" y1="25.4" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
-<label x="30.48" y="25.4" size="1.778" layer="95" rot="MR0"/>
+<pinref part="X1" gate="G$1" pin="C27"/>
+<wire x1="50.8" y1="25.4" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
+<label x="55.88" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+3,3V" class="0">
@@ -795,27 +788,6 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <label x="55.88" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="RXD" class="0">
-<segment>
-<pinref part="X1" gate="G$1" pin="C25"/>
-<wire x1="50.8" y1="30.48" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
-<label x="55.88" y="30.48" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="TXD" class="0">
-<segment>
-<pinref part="X1" gate="G$1" pin="C24"/>
-<wire x1="50.8" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
-<label x="55.88" y="33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="!PI_RESET" class="0">
-<segment>
-<pinref part="X1" gate="G$1" pin="C7"/>
-<wire x1="50.8" y1="76.2" x2="55.88" y2="76.2" width="0.1524" layer="91"/>
-<label x="55.88" y="76.2" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="C3"/>
@@ -858,18 +830,39 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <label x="55.88" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CANL" class="0">
+<net name="SPI_MOSI" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="C27"/>
-<wire x1="50.8" y1="25.4" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
-<label x="55.88" y="25.4" size="1.778" layer="95"/>
+<pinref part="X1" gate="G$1" pin="C9"/>
+<wire x1="50.8" y1="71.12" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
+<label x="55.88" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CANH" class="0">
+<net name="GPIO.05" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="C26"/>
-<wire x1="50.8" y1="27.94" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
-<label x="55.88" y="27.94" size="1.778" layer="95"/>
+<pinref part="X1" gate="G$1" pin="C14"/>
+<wire x1="50.8" y1="58.42" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
+<label x="55.88" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PI_TXD" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="A12"/>
+<wire x1="35.56" y1="63.5" x2="30.48" y2="63.5" width="0.1524" layer="91"/>
+<label x="30.48" y="63.5" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="PI_RXD" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="C12"/>
+<wire x1="50.8" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
+<label x="55.88" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="!PI_RESET" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="A26"/>
+<wire x1="35.56" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
+<label x="30.48" y="27.94" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 </nets>
@@ -877,4 +870,10 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
