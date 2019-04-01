@@ -13394,11 +13394,6 @@ Rev. 2019/03</text>
 </net>
 <net name="+5V_INT2" class="0">
 <segment>
-<pinref part="X2" gate="-1" pin="1"/>
-<wire x1="137.16" y1="152.4" x2="144.78" y2="152.4" width="0.1524" layer="91"/>
-<label x="137.16" y="152.4" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
 <pinref part="X3" gate="G$1" pin="A28"/>
 <wire x1="45.72" y1="96.52" x2="40.64" y2="96.52" width="0.1524" layer="91"/>
 <label x="40.64" y="96.52" size="1.778" layer="95" rot="MR0"/>
@@ -13408,8 +13403,6 @@ Rev. 2019/03</text>
 <wire x1="60.96" y1="96.52" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
 <label x="66.04" y="96.52" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="+5V_INT" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="5V0A"/>
 <wire x1="187.96" y1="147.32" x2="187.96" y2="149.86" width="0.1524" layer="91"/>
@@ -13425,6 +13418,8 @@ Rev. 2019/03</text>
 <wire x1="190.5" y1="149.86" x2="190.5" y2="147.32" width="0.1524" layer="91"/>
 <junction x="187.96" y="149.86"/>
 </segment>
+</net>
+<net name="+5V_INT" class="0">
 <segment>
 <pinref part="X3" gate="G$1" pin="A1"/>
 <wire x1="45.72" y1="165.1" x2="40.64" y2="165.1" width="0.1524" layer="91"/>
@@ -13434,6 +13429,11 @@ Rev. 2019/03</text>
 <pinref part="X3" gate="G$1" pin="C1"/>
 <wire x1="60.96" y1="165.1" x2="66.04" y2="165.1" width="0.1524" layer="91"/>
 <label x="66.04" y="165.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X2" gate="-1" pin="1"/>
+<wire x1="137.16" y1="152.4" x2="144.78" y2="152.4" width="0.1524" layer="91"/>
+<label x="137.16" y="152.4" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="GND_EXT" class="0">

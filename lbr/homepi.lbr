@@ -514,6 +514,57 @@
 <vertex x="4.445" y="-40.64"/>
 </polygon>
 </package>
+<package name="PLATINENVERBINDER-31-SMD_BOTTOM">
+<description>31-poliger Steckverbinder mit SMD-Pads</description>
+<text x="-3.81" y="-43.18" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.905" y="-39.37" size="1.27" layer="51" ratio="10" align="top-left">1</text>
+<wire x1="-2.54" y1="40.64" x2="2.54" y2="40.64" width="0.127" layer="21"/>
+<wire x1="2.54" y1="40.64" x2="2.54" y2="-40.64" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-40.64" x2="-2.54" y2="-40.64" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-40.64" x2="-2.54" y2="40.64" width="0.127" layer="21"/>
+<text x="-1.905" y="39.37" size="1.27" layer="51" ratio="10">31</text>
+<polygon width="0.127" layer="16">
+<vertex x="-0.635" y="-40.64"/>
+<vertex x="0" y="-39.624"/>
+<vertex x="0.635" y="-40.64"/>
+</polygon>
+<smd name="31" x="0" y="38.1" dx="3.81" dy="2.032" layer="16"/>
+<smd name="30" x="0" y="35.56" dx="3.81" dy="2.032" layer="16"/>
+<smd name="29" x="0" y="33.02" dx="3.81" dy="2.032" layer="16"/>
+<smd name="28" x="0" y="30.48" dx="3.81" dy="2.032" layer="16"/>
+<smd name="27" x="0" y="27.94" dx="3.81" dy="2.032" layer="16"/>
+<smd name="26" x="0" y="25.4" dx="3.81" dy="2.032" layer="16"/>
+<smd name="25" x="0" y="22.86" dx="3.81" dy="2.032" layer="16"/>
+<smd name="24" x="0" y="20.32" dx="3.81" dy="2.032" layer="16"/>
+<smd name="23" x="0" y="17.78" dx="3.81" dy="2.032" layer="16"/>
+<smd name="22" x="0" y="15.24" dx="3.81" dy="2.032" layer="16"/>
+<smd name="21" x="0" y="12.7" dx="3.81" dy="2.032" layer="16"/>
+<smd name="20" x="0" y="10.16" dx="3.81" dy="2.032" layer="16"/>
+<smd name="19" x="0" y="7.62" dx="3.81" dy="2.032" layer="16"/>
+<smd name="18" x="0" y="5.08" dx="3.81" dy="2.032" layer="16"/>
+<smd name="17" x="0" y="2.54" dx="3.81" dy="2.032" layer="16"/>
+<smd name="16" x="0" y="0" dx="3.81" dy="2.032" layer="16"/>
+<smd name="15" x="0" y="-2.54" dx="3.81" dy="2.032" layer="16"/>
+<smd name="14" x="0" y="-5.08" dx="3.81" dy="2.032" layer="16"/>
+<smd name="13" x="0" y="-7.62" dx="3.81" dy="2.032" layer="16"/>
+<smd name="12" x="0" y="-10.16" dx="3.81" dy="2.032" layer="16"/>
+<smd name="11" x="0" y="-12.7" dx="3.81" dy="2.032" layer="16"/>
+<smd name="10" x="0" y="-15.24" dx="3.81" dy="2.032" layer="16"/>
+<smd name="9" x="0" y="-17.78" dx="3.81" dy="2.032" layer="16"/>
+<smd name="8" x="0" y="-20.32" dx="3.81" dy="2.032" layer="16"/>
+<smd name="7" x="0" y="-22.86" dx="3.81" dy="2.032" layer="16"/>
+<smd name="6" x="0" y="-25.4" dx="3.81" dy="2.032" layer="16"/>
+<smd name="5" x="0" y="-27.94" dx="3.81" dy="2.032" layer="16"/>
+<smd name="4" x="0" y="-30.48" dx="3.81" dy="2.032" layer="16"/>
+<smd name="3" x="0" y="-33.02" dx="3.81" dy="2.032" layer="16"/>
+<smd name="2" x="0" y="-35.56" dx="3.81" dy="2.032" layer="16"/>
+<smd name="1" x="0" y="-38.1" dx="3.81" dy="2.032" layer="16"/>
+<polygon width="0.127" layer="16">
+<vertex x="-0.635" y="-40.64"/>
+<vertex x="0" y="-39.624"/>
+<vertex x="0.635" y="-40.64"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="PLATINENVERBINDER-31">
@@ -781,6 +832,44 @@ Platine
 <connect gate="1" pin="7" pad="7 7T" route="any"/>
 <connect gate="1" pin="8" pad="8 8T" route="any"/>
 <connect gate="1" pin="9" pad="9 9T" route="any"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD-BOTTOM" package="PLATINENVERBINDER-31-SMD_BOTTOM">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="10" pad="10"/>
+<connect gate="1" pin="11" pad="11"/>
+<connect gate="1" pin="12" pad="12"/>
+<connect gate="1" pin="13" pad="13"/>
+<connect gate="1" pin="14" pad="14"/>
+<connect gate="1" pin="15" pad="15"/>
+<connect gate="1" pin="16" pad="16"/>
+<connect gate="1" pin="17" pad="17"/>
+<connect gate="1" pin="18" pad="18"/>
+<connect gate="1" pin="19" pad="19"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="20" pad="20"/>
+<connect gate="1" pin="21" pad="21"/>
+<connect gate="1" pin="22" pad="22"/>
+<connect gate="1" pin="23" pad="23"/>
+<connect gate="1" pin="24" pad="24"/>
+<connect gate="1" pin="25" pad="25"/>
+<connect gate="1" pin="26" pad="26"/>
+<connect gate="1" pin="27" pad="27"/>
+<connect gate="1" pin="28" pad="28"/>
+<connect gate="1" pin="29" pad="29"/>
+<connect gate="1" pin="3" pad="3"/>
+<connect gate="1" pin="30" pad="30"/>
+<connect gate="1" pin="31" pad="31"/>
+<connect gate="1" pin="4" pad="4"/>
+<connect gate="1" pin="5" pad="5"/>
+<connect gate="1" pin="6" pad="6"/>
+<connect gate="1" pin="7" pad="7"/>
+<connect gate="1" pin="8" pad="8"/>
+<connect gate="1" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
