@@ -11190,7 +11190,16 @@ Source: www.kingbright.com</description>
 <wire x1="10.16" y1="139.7" x2="10.16" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="137.16" x2="10.16" y2="109.22" width="0.1524" layer="91"/>
 <junction x="10.16" y="137.16"/>
-<wire x1="10.16" y1="109.22" x2="35.56" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="109.22" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="109.22" x2="35.56" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="121.92" x2="27.94" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
+<junction x="27.94" y="116.84"/>
+<wire x1="27.94" y1="116.84" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
+<junction x="27.94" y="109.22"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="GND"/>
@@ -11477,17 +11486,6 @@ Source: www.kingbright.com</description>
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="116.84" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
 <junction x="43.18" y="116.84"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="121.92" x2="27.94" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="116.84" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
-<junction x="27.94" y="116.84"/>
 </segment>
 </net>
 <net name="AT_INT0" class="0">

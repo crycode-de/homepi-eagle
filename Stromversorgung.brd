@@ -88,12 +88,11 @@ int.</text>
 <text x="66.675" y="66.675" size="1.778" layer="1" font="vector" ratio="15" rot="R90" align="top-center">+3,3V</text>
 <text x="66.675" y="82.55" size="1.778" layer="1" font="vector" ratio="15" rot="R90" align="top-center">+5V
 ext.</text>
-<dimension x1="0" y1="0" x2="0" y2="100" x3="-11.43" y3="50" textsize="1.778" layer="47" precision="0" visible="yes"/>
-<dimension x1="5" y1="50" x2="-3.81" y2="0" x3="-5.08" y3="25" textsize="1.778" layer="47" dtype="vertical" precision="0" visible="yes"/>
-<dimension x1="0" y1="0" x2="5" y2="50" x3="2.5" y3="-3.81" textsize="1.778" layer="47" dtype="horizontal" precision="0" visible="yes"/>
 <text x="64.135" y="26.035" size="1.778" layer="1" font="vector" ratio="15" rot="R90" align="top-center">Ein/Aus
 Schalter</text>
 <text x="66.675" y="39.37" size="1.778" layer="1" font="vector" ratio="15" rot="R90" align="top-center">+24V</text>
+<dimension x1="0" y1="-0.47" x2="0" y2="99.53" x3="-13.97" y3="49.53" textsize="1.778" layer="20" visible="yes"/>
+<dimension x1="0" y1="-0.47" x2="80" y2="-0.47" x3="40" y3="-6.35" textsize="1.778" layer="20" visible="yes"/>
 </plain>
 <libraries>
 <library name="rcl">
