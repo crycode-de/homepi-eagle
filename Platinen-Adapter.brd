@@ -82,10 +82,15 @@
 <dimension x1="15.875" y1="48.26" x2="26" y2="48.26" x3="20.9375" y3="-6.35" textsize="1.778" layer="47"/>
 <dimension x1="0" y1="-0.47" x2="0" y2="99.53" x3="-16.51" y3="49.53" textsize="1.778" layer="47"/>
 <dimension x1="0" y1="-0.47" x2="26" y2="-0.47" x3="13" y3="-12.7" textsize="1.778" layer="47"/>
-<text x="19.05" y="64.77" size="1.778" layer="25" rot="R90" align="top-center">Rev 2019/04
+<text x="18.415" y="69.85" size="2.54" layer="25" font="vector" ratio="15" rot="R90" align="top-center">Rev 2019/04
 (c) Peter Müller</text>
-<text x="19.05" y="34.29" size="1.778" layer="25" rot="R90" align="top-center">HomePi
+<text x="18.415" y="30.48" size="2.54" layer="25" font="vector" ratio="15" rot="R90" align="top-center">HomePi
 Adapter-Board</text>
+<text x="18.415" y="10.795" size="1.778" layer="25" font="vector" ratio="10" align="center">1</text>
+<text x="18.415" y="69.85" size="2.54" layer="26" font="vector" ratio="15" rot="SMR270" align="top-center">HomePi
+Adapter-Board</text>
+<text x="18.415" y="30.48" size="2.54" layer="26" font="vector" ratio="15" rot="SMR270" align="top-center">Rev 2019/04
+(c) Peter Müller</text>
 </plain>
 <libraries>
 <library name="64-pol-verbinder">
@@ -627,6 +632,9 @@ male, 64 pins, type C, rows AC, grid 5.08 mm</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="24V" width="0.8128" drill="0">
+<clearance class="1" value="0.4064"/>
+</class>
 </classes>
 <designrules name="platinenbelichter">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
@@ -809,7 +817,6 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="SV1" library="64-pol-verbinder" package="1X31" value="" x="15.875" y="48.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.5288" y="91.3638" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="19.05" y="10.16" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="X1" library="con-vg" package="MAC64L" value="MAC64L" x="2.54" y="49.53" smashed="yes" rot="R180">
@@ -1026,7 +1033,7 @@ design rules under a new name.</description>
 <wire x1="12.7" y1="85.09" x2="15.875" y2="85.09" width="0.8128" layer="1"/>
 <wire x1="5.08" y1="83.82" x2="10.16" y2="83.82" width="0.8128" layer="1"/>
 </signal>
-<signal name="+24V">
+<signal name="+24V" class="1">
 <contactref element="X1" pad="A32"/>
 <contactref element="X1" pad="C32"/>
 <wire x1="5.08" y1="88.9" x2="10.16" y2="88.9" width="0.8128" layer="1"/>

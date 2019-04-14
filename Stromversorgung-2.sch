@@ -9934,74 +9934,35 @@ Based on the previous libraries:
 &lt;/ul&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="MSTBV2">
+<package name="MSTBA2">
 <description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
-<wire x1="-3.175" y1="0.635" x2="-3.175" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-3.175" y1="-0.635" x2="-1.905" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-1.905" y1="-0.635" x2="-1.905" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-1.905" y1="0.635" x2="-3.175" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-3.175" y1="0.635" x2="-1.905" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-3.175" y1="-0.635" x2="-1.905" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-5.715" y1="-3.81" x2="5.715" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="-3.81" x2="5.715" y2="4.064" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="4.064" x2="5.715" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="4.572" x2="-5.715" y2="4.064" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="4.064" x2="-5.715" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="2.794" x2="-5.08" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="3.048" x2="5.08" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="2.794" x2="5.08" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="0.635" x2="1.905" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="1.905" y1="-0.635" x2="3.175" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="3.175" y1="-0.635" x2="3.175" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="3.175" y1="0.635" x2="1.905" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="1.905" y1="0.635" x2="3.175" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="1.905" y1="-0.635" x2="3.175" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-4.6736" y1="-2.4892" x2="-2.54" y2="-3.556" width="0.1524" layer="21" curve="53.130102"/>
-<wire x1="-2.54" y1="-3.556" x2="-0.4064" y2="-2.4892" width="0.1524" layer="21" curve="53.130102"/>
-<wire x1="-0.381" y1="-2.54" x2="0.381" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.54" x2="-4.6482" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="0.4064" y1="-2.4892" x2="2.54" y2="-3.556" width="0.1524" layer="21" curve="53.130102"/>
-<wire x1="2.54" y1="-3.556" x2="4.6736" y2="-2.4892" width="0.1524" layer="21" curve="53.130102"/>
-<wire x1="4.6482" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="2.794" x2="-3.048" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="-3.048" y1="2.794" x2="-2.032" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="2.794" x2="2.032" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="2.794" x2="3.048" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="3.048" y1="2.794" x2="5.08" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="4.572" x2="-3.048" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="-3.048" y1="4.572" x2="-2.032" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="4.572" x2="2.032" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="4.572" x2="3.048" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="3.048" y1="4.572" x2="5.715" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="2.794" x2="2.032" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="3.048" y1="2.794" x2="3.048" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="4.064" x2="-3.302" y2="4.064" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="4.064" x2="1.778" y2="4.064" width="0.1524" layer="21"/>
-<wire x1="1.778" y1="4.064" x2="2.032" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="1.778" y1="4.064" x2="1.778" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="1.778" y1="3.048" x2="2.032" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="1.778" y1="3.048" x2="-1.778" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="3.048" x2="-5.08" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="3.048" y1="4.572" x2="3.302" y2="4.064" width="0.1524" layer="21"/>
-<wire x1="3.302" y1="4.064" x2="5.715" y2="4.064" width="0.1524" layer="21"/>
-<wire x1="3.302" y1="4.064" x2="3.302" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="3.302" y1="3.048" x2="3.048" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="3.302" y1="3.048" x2="5.08" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="2.794" x2="-2.032" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="-3.048" y1="2.794" x2="-3.048" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="4.064" x2="-3.302" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="4.064" x2="-1.778" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="4.572" x2="-1.778" y2="4.064" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="4.064" x2="-3.048" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="3.048" x2="-3.048" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="3.048" x2="-2.032" y2="2.794" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.397" shape="long" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.397" shape="long" rot="R90"/>
-<text x="-4.699" y="-2.159" size="1.27" layer="21" ratio="10">1</text>
-<text x="0" y="-2.159" size="1.27" layer="21" ratio="10">2</text>
-<text x="-5.715" y="-6.096" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="1.27" y="-6.096" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="-6.096" y1="7.112" x2="-6.096" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-6.096" y1="7.112" x2="-3.175" y2="7.112" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="7.112" x2="-1.905" y2="7.112" width="0.1524" layer="51"/>
+<wire x1="-1.905" y1="7.112" x2="1.905" y2="7.112" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="7.112" x2="3.175" y2="7.112" width="0.1524" layer="51"/>
+<wire x1="3.175" y1="7.112" x2="6.096" y2="7.112" width="0.1524" layer="21"/>
+<wire x1="-6.096" y1="-1.905" x2="6.096" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="6.096" y1="7.112" x2="6.096" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-6.096" y1="-4.953" x2="-3.429" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="-6.096" y1="-1.905" x2="-6.096" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="6.096" y1="-1.905" x2="6.096" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-4.953" x2="-2.032" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-4.953" x2="1.651" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="-3.683" x2="-3.048" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="-4.953" x2="-3.048" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="-4.953" x2="-1.651" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="-4.953" x2="3.048" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="-4.953" x2="6.096" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="1.651" y1="-4.953" x2="2.032" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="1.651" y1="-4.953" x2="3.429" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-3.683" x2="3.048" y2="-3.683" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="5.08" drill="1.397" shape="long" rot="R90"/>
+<pad name="2" x="2.54" y="5.08" drill="1.397" shape="long" rot="R90"/>
+<text x="-6.096" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="0" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-4.572" y="4.445" size="1.27" layer="21" ratio="10">1</text>
+<text x="0.254" y="4.445" size="1.27" layer="21" ratio="10">2</text>
 </package>
 </packages>
 <symbols>
@@ -10030,24 +9991,24 @@ Based on the previous libraries:
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MSTBV2" prefix="X">
+<deviceset name="MSTBA2" prefix="X">
 <description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
 <gates>
 <gate name="-1" symbol="SK" x="0" y="5.08" addlevel="always"/>
 <gate name="-2" symbol="SKV" x="0" y="0" addlevel="always"/>
 </gates>
 <devices>
-<device name="" package="MSTBV2">
+<device name="" package="MSTBA2">
 <connects>
 <connect gate="-1" pin="1" pad="1"/>
 <connect gate="-2" pin="1" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="MSTBV 2,5/2-GF-5.08" constant="no"/>
-<attribute name="OC_FARNELL" value="1792792" constant="no"/>
-<attribute name="OC_NEWARK" value="69R9845" constant="no"/>
+<attribute name="MF" value="FARNELL" constant="no"/>
+<attribute name="MPN" value="1757242" constant="no"/>
+<attribute name="OC_FARNELL" value="3705171" constant="no"/>
+<attribute name="OC_NEWARK" value="71C4161" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -11560,123 +11521,6 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="_traco_tsr-1">
-<description>&lt;h2&gt;TRACO TSR-1 Series&lt;/h2&gt;
-
-&lt;p&gt;&lt;b&gt;Point-of-Load DC/DC-Converters
-
-&lt;p&gt;Vi max. 36 V;&amp;nbsp; Vo = (1.2 .. 15)V &amp;plusmn;2%;&amp;nbsp; Io = 0 .. 1 A&lt;/p&gt;
-
-&lt;p&gt;SIP-Package&lt;br /&gt;(drop-in replacement for 78xx linear voltage regulators in TO220-package, vertically assembled)&lt;/p&gt;
-
-&lt;p&gt;&lt;i&gt;Source: www.tracopower.com&lt;/p&gt;
-
-&lt;hr&gt;
-
-
-&lt;author&gt;&lt;p&gt;&lt;i&gt;Author: Dipl.-Ing. FH Rainer Bayer&lt;br /&gt;
-HHN Hochschule Heilbronn, rainer.bayer@hs-heilbronn.de&lt;br /&gt;
-Ingenieurbüro ing-rb, mail@ing-rb.de&lt;/p&gt;&lt;/author&gt;</description>
-<packages>
-<package name="TSR-1">
-<description>&lt;p&gt;&lt;b&gt;Traco TSR-1&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i&gt;Source: www.tracopower.com&lt;/i&gt;&lt;/p&gt;</description>
-<wire x1="-5.85" y1="-2" x2="-5.85" y2="5.6" width="0.2032" layer="21"/>
-<wire x1="-5.85" y1="5.6" x2="5.85" y2="5.6" width="0.2032" layer="21"/>
-<wire x1="5.85" y1="5.6" x2="5.85" y2="-2" width="0.2032" layer="21"/>
-<wire x1="5.85" y1="-2" x2="-5.85" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-6.096" y1="5.842" x2="6.096" y2="5.842" width="0.1016" layer="39"/>
-<wire x1="6.096" y1="5.842" x2="6.096" y2="-2.2225" width="0.1016" layer="39"/>
-<wire x1="6.096" y1="-2.2225" x2="-6.096" y2="-2.2225" width="0.1016" layer="39"/>
-<wire x1="-6.096" y1="-2.2225" x2="-6.096" y2="5.842" width="0.1016" layer="39"/>
-<circle x="-5.08" y="-1.143" radius="0.4016" width="0" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="0.9" shape="square"/>
-<pad name="2" x="0" y="0" drill="0.9" shape="square"/>
-<pad name="3" x="2.54" y="0" drill="0.9" shape="square"/>
-<text x="-5.842" y="5.9182" size="1.4224" layer="25">&gt;NAME</text>
-<text x="-5.842" y="-3.683" size="1.4224" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.25" y1="-0.15" x2="0.25" y2="0.15" layer="51"/>
-<rectangle x1="-2.79" y1="-0.15" x2="-2.29" y2="0.15" layer="51"/>
-<rectangle x1="2.29" y1="-0.15" x2="2.79" y2="0.15" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="TSR-1">
-<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<text x="-7.62" y="5.461" size="1.6764" layer="95">&gt;NAME</text>
-<text x="-7.62" y="3.175" size="1.6764" layer="96">&gt;VALUE</text>
-<text x="-2.032" y="-4.318" size="1.524" layer="95">GND</text>
-<pin name="VI" x="-10.16" y="0" length="short" direction="sup"/>
-<pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
-<pin name="VO" x="10.16" y="0" length="short" direction="pwr" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TSR_1-*" prefix="U">
-<description>&lt;h2&gt;TRACO TSR-1 Series&lt;/h2&gt;
-
-&lt;p&gt;&lt;b&gt;Point-of-Load DC/DC-Converters
-
-&lt;p&gt;Vi max. 36 V;&amp;nbsp; Vo = (1.2 .. 15)V &amp;plusmn;2%;&amp;nbsp; Io = 0 .. 1 A&lt;/p&gt;
-
-&lt;p&gt;SIP-Package&lt;br /&gt;(drop-in replacement for 78xx linear voltage regulators in TO220-package, vertically assembled)&lt;/p&gt;
-
-&lt;p&gt;&lt;i&gt;Source: www.tracopower.com&lt;/p&gt;
-
-
-&lt;hr&gt;
-&lt;p&gt;Technologies:&lt;/p&gt;
-&lt;p&gt;&lt;pre&gt;TSR 1-   Vi (V)       Vo (V) &amp;plusmn;2%   Io = 0 .. 1 A
-&lt;s&gt;      &lt;/s&gt;   &lt;s&gt;          &lt;/s&gt;   &lt;s&gt;          &lt;/s&gt;
-24_      (       generic       )
-2412      4.6 .. 36    1.2
-2415      4.6 .. 36    1.5
-2418      4.6 .. 36    1.8
-2425      4.6 .. 36    2.5
-2433      4.75.. 36    3.3
-2450      6.5 .. 36    5.0
-2465      9.0 .. 36    6.5
-2490     12   .. 36    9.0
-24120    15   .. 36   12
-24150    18   .. 36   15
-&lt;/pre&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;author&gt;&lt;p&gt;&lt;i&gt;Author: Dipl.-Ing. FH Rainer Bayer&lt;br /&gt;
-HHN Hochschule Heilbronn, rainer.bayer@hs-heilbronn.de&lt;br /&gt;
-Ingenieurbüro ing-rb, mail@ing-rb.de&lt;/p&gt;&lt;/author&gt;</description>
-<gates>
-<gate name="G$1" symbol="TSR-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TSR-1">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VI" pad="1"/>
-<connect gate="G$1" pin="VO" pad="3"/>
-</connects>
-<technologies>
-<technology name="2412"/>
-<technology name="24120"/>
-<technology name="2415"/>
-<technology name="24150"/>
-<technology name="2418"/>
-<technology name="2425"/>
-<technology name="2433"/>
-<technology name="2450"/>
-<technology name="2465"/>
-<technology name="2490"/>
-<technology name="24_"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="frames">
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
 <packages>
@@ -12311,6 +12155,117 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="TSR">
+<packages>
+<package name="TSR1">
+<pad name="2" x="0" y="-1.75" drill="0.8" shape="square"/>
+<pad name="1" x="-2.54" y="-1.75" drill="0.8" shape="square"/>
+<pad name="3" x="2.54" y="-1.75" drill="0.8" shape="square"/>
+<wire x1="-5.85" y1="-3.75" x2="-5.6" y2="-3.75" width="0.127" layer="21"/>
+<wire x1="-5.6" y1="-3.75" x2="5.6" y2="-3.75" width="0.127" layer="21"/>
+<wire x1="5.6" y1="-3.75" x2="5.85" y2="-3.75" width="0.127" layer="21"/>
+<wire x1="-5.85" y1="3.75" x2="-5.6" y2="3.75" width="0.127" layer="21"/>
+<wire x1="-5.6" y1="3.75" x2="5.6" y2="3.75" width="0.127" layer="21"/>
+<wire x1="5.6" y1="3.75" x2="5.85" y2="3.75" width="0.127" layer="21"/>
+<wire x1="-5.85" y1="3.75" x2="-5.85" y2="-3.75" width="0.127" layer="21"/>
+<wire x1="5.85" y1="3.75" x2="5.85" y2="-3.75" width="0.127" layer="21"/>
+<circle x="-3.81" y="-0.635" radius="0.2" width="0.5" layer="21"/>
+<wire x1="-5.6" y1="3.75" x2="-5.6" y2="-3.75" width="0.127" layer="21"/>
+<wire x1="5.6" y1="3.75" x2="5.6" y2="-3.75" width="0.127" layer="21"/>
+</package>
+<package name="TSR2">
+<pad name="2" x="0" y="0" drill="0.8" shape="square"/>
+<pad name="1" x="-2.54" y="0" drill="0.8" shape="square"/>
+<pad name="3" x="2.54" y="0" drill="0.8" shape="square"/>
+<wire x1="-7" y1="-3.89" x2="-6.75" y2="-3.89" width="0.127" layer="21"/>
+<wire x1="-6.75" y1="-3.89" x2="6.75" y2="-3.89" width="0.127" layer="21"/>
+<wire x1="6.75" y1="-3.89" x2="7" y2="-3.89" width="0.127" layer="21"/>
+<wire x1="-7" y1="3.89" x2="-6.75" y2="3.89" width="0.127" layer="21"/>
+<wire x1="-6.75" y1="3.89" x2="6.75" y2="3.89" width="0.127" layer="21"/>
+<wire x1="6.75" y1="3.89" x2="7" y2="3.89" width="0.127" layer="21"/>
+<wire x1="-7" y1="3.89" x2="-7" y2="-3.89" width="0.127" layer="21"/>
+<wire x1="7" y1="3.89" x2="7" y2="-3.89" width="0.127" layer="21"/>
+<circle x="-3.81" y="-1.27" radius="0.2" width="0.5" layer="21"/>
+<wire x1="-6.75" y1="3.89" x2="-6.75" y2="-3.89" width="0.127" layer="21"/>
+<wire x1="6.75" y1="3.89" x2="6.75" y2="-3.89" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TSR">
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<pin name="VI" x="-10.16" y="0" length="short" direction="sup"/>
+<pin name="VO" x="10.16" y="0" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
+<text x="-1.905" y="-4.445" size="1.778" layer="95">GND</text>
+<text x="-7.62" y="5.334" size="1.778" layer="95">&gt;Name</text>
+<text x="-7.62" y="2.794" size="1.778" layer="95">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TSR1-*" prefix="U">
+<description>&lt;h1&gt;TSR 1 Series, 1 Amp&lt;/h1&gt;
+The  TSR-1  series  step-down  switching  regulators  are  drop-in  replacement  for  inefficient 78xx linear regulators. A high efficiency up to 96 % allows full load operation up to +60 °C ambient temperature without the need of any heat-sink or forced cooling. The TSR-1 switching regulators provide other significant fea-tures  over  linear  regulators,  i.e.  better  output  accuracy  (±2  %),  lower  standby  current of 2 mA and no requirement of external capacitors. The high efficiency and low standby power consumption makes these regulators an ideal solution for many battery powered applications.</description>
+<gates>
+<gate name="U1" symbol="TSR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSR1">
+<connects>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="VI" pad="1"/>
+<connect gate="U1" pin="VO" pad="3"/>
+</connects>
+<technologies>
+<technology name="2412"/>
+<technology name="24120"/>
+<technology name="2415"/>
+<technology name="24150"/>
+<technology name="2418"/>
+<technology name="2425"/>
+<technology name="2433"/>
+<technology name="2450"/>
+<technology name="2465"/>
+<technology name="2490"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TSR2-*">
+<description>&lt;h1&gt;TSR 2 Series, 1 A&lt;/h1&gt;
+The new TSR 2 series step-down switching regulators are drop-in replacement for inefficient LMxx linear regulators. A high efficiency up to 96 % allows full load operation up to +67°C ambient temperature without the need of any heat-sink or forced cooling.The  TSR  2  switching  regulators  provide  other  significant  features  over  linear  regulators,  i.e.  better  output  accuracy  (±2  %),  lower  standby  current  of  2  mA  and no requirement of external capacitors. The high efficiency and low standby power  consumption  makes  these  regulators  an  ideal  solution  for  many  battery  powered applications.</description>
+<gates>
+<gate name="U1" symbol="TSR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSR2">
+<connects>
+<connect gate="U1" pin="GND" pad="2"/>
+<connect gate="U1" pin="VI" pad="1"/>
+<connect gate="U1" pin="VO" pad="3"/>
+</connects>
+<technologies>
+<technology name="0515"/>
+<technology name="0518"/>
+<technology name="0525"/>
+<technology name="2412"/>
+<technology name="24120"/>
+<technology name="2415"/>
+<technology name="24150"/>
+<technology name="2418"/>
+<technology name="2425"/>
+<technology name="2433"/>
+<technology name="2450"/>
+<technology name="2465"/>
+<technology name="2490"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12319,28 +12274,28 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="24V" width="0.8128" drill="0">
+<class number="1" name="24V" width="0" drill="0">
 <clearance class="1" value="0.4064"/>
 </class>
 </classes>
 <parts>
-<part name="X1" library="con-phoenix-508" deviceset="MSTBV2" device="" value="Ein/Aus"/>
+<part name="X1" library="con-phoenix-508" deviceset="MSTBA2" device="" value="Ein/Aus"/>
 <part name="LED1" library="led" deviceset="LED" device="3MM" value="2mA ge"/>
 <part name="LED2" library="led" deviceset="LED" device="3MM" value="2mA ge"/>
 <part name="LED3" library="led" deviceset="LED" device="3MM" value="2mA ge"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="0204/5" value="1k5"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="0204/5" value="560"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="0204/5" value="1k5"/>
-<part name="U1" library="_traco_tsr-1" deviceset="TSR_1-*" device="" technology="2450" value="TSR 2-2450"/>
-<part name="U2" library="_traco_tsr-1" deviceset="TSR_1-*" device="" technology="2433" value="TSR 1-2433"/>
-<part name="U3" library="_traco_tsr-1" deviceset="TSR_1-*" device="" technology="2450" value="TSR 2-2450"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="1k5"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="560"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R1206" value="1k5"/>
+<part name="U1" library="TSR" deviceset="TSR2-*" device="" technology="2450" value="TSR2-2450"/>
+<part name="U2" library="TSR" deviceset="TSR1-*" device="" technology="2433" value="TSR1-2433"/>
+<part name="U3" library="TSR" deviceset="TSR2-*" device="" technology="2450" value="TSR2-2450"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="J1" library="con-jack" deviceset="DCJ0202" device=""/>
 <part name="X2" library="con-vg" deviceset="MAC64L" device=""/>
 <part name="C1" library="rcl" deviceset="CPOL-EU" device="E2-5" value="22µF 50V Low-ESR"/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="E2-5" value="22µF 50V Low-ESR"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="0204/5" value="12k"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R1206" value="12k"/>
 <part name="LED4" library="led" deviceset="LED" device="3MM" value="2mA ge"/>
 </parts>
 <sheets>
@@ -12348,17 +12303,17 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <plain>
 </plain>
 <instances>
-<instance part="X1" gate="-1" x="139.7" y="7.62" rot="R180"/>
-<instance part="X1" gate="-2" x="139.7" y="12.7" rot="R180"/>
+<instance part="X1" gate="-1" x="132.08" y="12.7" rot="R180"/>
+<instance part="X1" gate="-2" x="132.08" y="17.78" rot="R180"/>
 <instance part="LED1" gate="G$1" x="185.42" y="40.64"/>
 <instance part="LED2" gate="G$1" x="205.74" y="40.64"/>
 <instance part="LED3" gate="G$1" x="226.06" y="40.64"/>
 <instance part="R1" gate="G$1" x="185.42" y="50.8" rot="R90"/>
 <instance part="R2" gate="G$1" x="205.74" y="50.8" rot="R90"/>
 <instance part="R3" gate="G$1" x="226.06" y="50.8" rot="R90"/>
-<instance part="U1" gate="G$1" x="40.64" y="152.4"/>
-<instance part="U2" gate="G$1" x="124.46" y="152.4"/>
-<instance part="U3" gate="G$1" x="213.36" y="152.4"/>
+<instance part="U1" gate="U1" x="40.64" y="152.4"/>
+<instance part="U2" gate="U1" x="124.46" y="152.4"/>
+<instance part="U3" gate="U1" x="213.36" y="152.4"/>
 <instance part="FRAME1" gate="G$1" x="-5.08" y="-5.08"/>
 <instance part="GND1" gate="1" x="15.24" y="111.76"/>
 <instance part="J1" gate="G$1" x="99.06" y="10.16"/>
@@ -12378,7 +12333,7 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <label x="185.42" y="60.96" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="VO"/>
+<pinref part="U1" gate="U1" pin="VO"/>
 <wire x1="50.8" y1="152.4" x2="55.88" y2="152.4" width="0.1524" layer="91"/>
 <label x="55.88" y="152.4" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -12410,7 +12365,7 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <label x="226.06" y="60.96" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="VO"/>
+<pinref part="U3" gate="U1" pin="VO"/>
 <wire x1="223.52" y1="152.4" x2="228.6" y2="152.4" width="0.1524" layer="91"/>
 <label x="228.6" y="152.4" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -12433,7 +12388,7 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 </segment>
 <segment>
 <label x="139.7" y="152.4" size="1.778" layer="95" xref="yes"/>
-<pinref part="U2" gate="G$1" pin="VO"/>
+<pinref part="U2" gate="U1" pin="VO"/>
 <wire x1="134.62" y1="152.4" x2="139.7" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12470,7 +12425,7 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 </net>
 <net name="+24V" class="1">
 <segment>
-<pinref part="U1" gate="G$1" pin="VI"/>
+<pinref part="U1" gate="U1" pin="VI"/>
 <wire x1="30.48" y1="152.4" x2="17.78" y2="152.4" width="0.1524" layer="91"/>
 <label x="10.16" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="C1" gate="G$1" pin="+"/>
@@ -12479,7 +12434,7 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <junction x="17.78" y="152.4"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="VI"/>
+<pinref part="U3" gate="U1" pin="VI"/>
 <wire x1="203.2" y1="152.4" x2="190.5" y2="152.4" width="0.1524" layer="91"/>
 <label x="182.88" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="C2" gate="G$1" pin="+"/>
@@ -12498,19 +12453,19 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <label x="58.42" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-1" pin="1"/>
-<wire x1="134.62" y1="7.62" x2="132.08" y2="7.62" width="0.1524" layer="91"/>
-<label x="132.08" y="7.62" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="55.88" x2="243.84" y2="60.96" width="0.1524" layer="91"/>
 <label x="243.84" y="60.96" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="VI"/>
+<pinref part="U2" gate="U1" pin="VI"/>
 <wire x1="109.22" y1="152.4" x2="114.3" y2="152.4" width="0.1524" layer="91"/>
 <label x="109.22" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X1" gate="-2" pin="1"/>
+<wire x1="127" y1="17.78" x2="119.38" y2="17.78" width="0.1524" layer="91"/>
+<label x="119.38" y="17.78" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -12520,7 +12475,7 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <label x="15.24" y="119.38" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GND"/>
+<pinref part="U1" gate="U1" pin="GND"/>
 <wire x1="40.64" y1="144.78" x2="40.64" y2="139.7" width="0.1524" layer="91"/>
 <label x="40.64" y="137.16" size="1.778" layer="95" rot="R270" xref="yes"/>
 <pinref part="C1" gate="G$1" pin="-"/>
@@ -12530,12 +12485,12 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <junction x="40.64" y="139.7"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="GND"/>
+<pinref part="U2" gate="U1" pin="GND"/>
 <wire x1="124.46" y1="144.78" x2="124.46" y2="137.16" width="0.1524" layer="91"/>
 <label x="124.46" y="137.16" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="GND"/>
+<pinref part="U3" gate="U1" pin="GND"/>
 <wire x1="213.36" y1="144.78" x2="213.36" y2="139.7" width="0.1524" layer="91"/>
 <label x="213.36" y="137.16" size="1.778" layer="95" rot="R270" xref="yes"/>
 <pinref part="C2" gate="G$1" pin="-"/>
@@ -12618,12 +12573,25 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <wire x1="53.34" y1="15.24" x2="58.42" y2="15.24" width="0.1524" layer="91"/>
 <label x="58.42" y="15.24" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="N$1" class="1">
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<pinref part="X1" gate="-2" pin="1"/>
-<wire x1="106.68" y1="12.7" x2="134.62" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="X2" gate="G$1" pin="A11"/>
+<wire x1="38.1" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
+<label x="33.02" y="63.5" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="X2" gate="G$1" pin="A13"/>
+<wire x1="38.1" y1="58.42" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
+<label x="33.02" y="58.42" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="X2" gate="G$1" pin="C13"/>
+<wire x1="53.34" y1="58.42" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
+<label x="58.42" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X2" gate="G$1" pin="A27"/>
+<wire x1="38.1" y1="22.86" x2="33.02" y2="22.86" width="0.1524" layer="91"/>
+<label x="33.02" y="22.86" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -12645,6 +12613,13 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <pinref part="X2" gate="G$1" pin="A7"/>
 <wire x1="38.1" y1="73.66" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
 <label x="33.02" y="73.66" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="X1" gate="-1" pin="1"/>
+<wire x1="106.68" y1="12.7" x2="127" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

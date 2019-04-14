@@ -969,6 +969,9 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="24V" width="0.8128" drill="0">
+<clearance class="1" value="0.4064"/>
+</class>
 </classes>
 <parts>
 <part name="FRAME2" library="frames" deviceset="A4L-LOC" device=""/>
@@ -1392,7 +1395,7 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <label x="66.04" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+24V" class="0">
+<net name="+24V" class="1">
 <segment>
 <pinref part="X1" gate="G$1" pin="A32"/>
 <wire x1="45.72" y1="68.58" x2="40.64" y2="68.58" width="0.1524" layer="91"/>

@@ -1676,6 +1676,9 @@ female, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="24V" width="0.8128" drill="0">
+<clearance class="1" value="0.4064"/>
+</class>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
@@ -2699,7 +2702,7 @@ female, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <label x="203.2" y="81.28" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="+24V" class="0">
+<net name="+24V" class="1">
 <segment>
 <pinref part="X1" gate="G$1" pin="C32"/>
 <wire x1="38.1" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
@@ -3047,7 +3050,7 @@ female, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <pinref part="X4" gate="G$1" pin="A24"/>
 </segment>
 </net>
-<net name="A26" class="0">
+<net name="A25" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="A25"/>
 <wire x1="22.86" y1="83.82" x2="17.78" y2="83.82" width="0.1524" layer="91"/>
@@ -3610,7 +3613,7 @@ female, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <pinref part="SV2" gate="1" pin="51"/>
 </segment>
 </net>
-<net name="+24V" class="0">
+<net name="+24V" class="1">
 <segment>
 <wire x1="162.56" y1="60.96" x2="157.48" y2="60.96" width="0.1524" layer="91"/>
 <label x="157.48" y="60.96" size="1.778" layer="95" rot="MR0"/>
@@ -3798,7 +3801,7 @@ female, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 <pinref part="SV2" gate="1" pin="47"/>
 </segment>
 </net>
-<net name="A26" class="0">
+<net name="A25" class="0">
 <segment>
 <wire x1="162.56" y1="78.74" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
 <label x="157.48" y="78.74" size="1.778" layer="95" rot="MR0"/>

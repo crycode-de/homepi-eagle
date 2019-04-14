@@ -12957,6 +12957,9 @@ Jan Kandziora &amp;lt;jjj@gmx.de&amp;gt;</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="24V" width="0.8128" drill="0">
+<clearance class="1" value="0.4064"/>
+</class>
 </classes>
 <parts>
 <part name="X1" library="raspberrypi_bastelstube_v13" deviceset="RASPI_GPIO_B+#" device="_PIN" value="RASPI_GPIO_B+#_PIN"/>
@@ -13426,7 +13429,7 @@ Rev. 2019/03</text>
 <label x="66.04" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+24V" class="0">
+<net name="+24V" class="1">
 <segment>
 <pinref part="X3" gate="G$1" pin="A32"/>
 <wire x1="45.72" y1="86.36" x2="40.64" y2="86.36" width="0.1524" layer="91"/>
