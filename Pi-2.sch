@@ -13603,10 +13603,10 @@ Rev. 2019/03</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,187.96,147.32,X1,5V0A,+5V_INT,,,"/>
+<approved hash="104,1,187.96,147.32,X1,5V0A,+5V_INT2,,,"/>
 <approved hash="204,1,200.66,147.32,X1,3V3A,,,,"/>
 <approved hash="104,1,210.82,111.76,X1,GND_A,GND,,,"/>
-<approved hash="104,1,190.5,147.32,X1,5V0B,+5V_INT,,,"/>
+<approved hash="104,1,190.5,147.32,X1,5V0B,+5V_INT2,,,"/>
 <approved hash="204,1,203.2,147.32,X1,3V3B,,,,"/>
 <approved hash="104,1,210.82,109.22,X1,GND_B,GND,,,"/>
 <approved hash="104,1,210.82,106.68,X1,GND_C,GND,,,"/>
@@ -13625,7 +13625,7 @@ Rev. 2019/03</text>
 <approved hash="104,1,210.82,96.52,X1,GND_G,GND,,,"/>
 <approved hash="104,1,210.82,93.98,X1,GND_H,GND,,,"/>
 <approved hash="104,1,40.64,30.48,IC1_1W,1W,1WIRE,,,"/>
-<approved hash="104,1,50.8,38.1,IC1P,VDD,+5V_EXT,,,"/>
+<approved hash="104,1,50.8,38.1,IC1P,VDD,+5V_INT,,,"/>
 <approved hash="113,1,130.071,89.431,FRAME1,,,,,"/>
 </errors>
 </schematic>

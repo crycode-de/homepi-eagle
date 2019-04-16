@@ -636,14 +636,28 @@ male, 64 pins, type C, rows AC, grid 5.08 mm</description>
 <clearance class="1" value="0.4064"/>
 </class>
 </classes>
-<designrules name="platinenbelichter">
-<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+<designrules name="allpcb2">
+<description language="de">&lt;b&gt;AllPCB Design Rules&lt;/b&gt;
 &lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
-besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
-einem neuen Namen ab.</description>
+Design-Rules angepasst an &lt;a href=&quot;https://www.allpcb.com&quot;&gt;AllPCB&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+Einige Limits sind etwas höher als die Vorgaben von AllPCB, um eine saubere Fertigung zu gewährleisten.
+&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://www.allpcb.com/sns/about-pcb-design-rules_4762.html&quot;&gt;Design-Rules&lt;/a&gt;
+&lt;br&gt;
+&lt;table border=1 cellpadding=5 &gt;
+&lt;tr&gt;&lt;th&gt;Item&lt;/th&gt;&lt;th&gt;mm&lt;/th&gt;&lt;th&gt;mil&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Minimum trace width&lt;/td&gt;&lt;td&gt;0,11524&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Minimum trace/vias/pads space&lt;/td&gt;&lt;td&gt;0,11524&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Minimum silkscreen width&lt;/td&gt;&lt;td&gt;0,11524&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Minimum silkscreen text size&lt;/td&gt;&lt;td&gt;0,8128&lt;/td&gt;&lt;td&gt;32&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Drilling Hole&lt;/td&gt;&lt;td&gt;0,3 - 6,35&lt;/td&gt;&lt;td&gt;11,81 - 250,00&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Solder Mask Clearance&lt;/td&gt;&lt;td&gt;0,13&lt;/td&gt;&lt;td&gt;5,12&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</description>
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 The default Design Rules have been set to cover
@@ -654,23 +668,23 @@ design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="10mil"/>
-<param name="mdWirePad" value="10mil"/>
-<param name="mdWireVia" value="10mil"/>
-<param name="mdPadPad" value="10mil"/>
-<param name="mdPadVia" value="10mil"/>
-<param name="mdViaVia" value="10mil"/>
-<param name="mdSmdPad" value="10mil"/>
-<param name="mdSmdVia" value="10mil"/>
-<param name="mdSmdSmd" value="10mil"/>
+<param name="mdWireWire" value="8mil"/>
+<param name="mdWirePad" value="8mil"/>
+<param name="mdWireVia" value="8mil"/>
+<param name="mdPadPad" value="8mil"/>
+<param name="mdPadVia" value="8mil"/>
+<param name="mdViaVia" value="8mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="40mil"/>
 <param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="10mil"/>
-<param name="msDrill" value="24mil"/>
-<param name="msMicroVia" value="9.99mm"/>
+<param name="msWidth" value="8mil"/>
+<param name="msDrill" value="0.5mm"/>
+<param name="msMicroVia" value="0.5mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
@@ -700,8 +714,8 @@ design rules under a new name.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="10mil"/>
-<param name="mlMaxStopFrame" value="10mil"/>
+<param name="mlMinStopFrame" value="0.1mm"/>
+<param name="mlMaxStopFrame" value="0.1mm"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="0mil"/>
@@ -835,7 +849,7 @@ design rules under a new name.</description>
 <wire x1="12.7" y1="87.63" x2="15.875" y2="87.63" width="0.8128" layer="1"/>
 </signal>
 <signal name="GND">
-<polygon width="0.254" layer="16">
+<polygon width="0.254" layer="16" isolate="0.254">
 <vertex x="1.905" y="90.17"/>
 <vertex x="18.415" y="90.17"/>
 <vertex x="18.415" y="8.89"/>

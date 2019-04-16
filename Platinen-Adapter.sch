@@ -1472,6 +1472,13 @@ male, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="106,1,45.72,83.82,!PI_RESET,,,,,"/>
+<approved hash="106,1,60.96,119.38,PI_RXD,,,,,"/>
+<approved hash="106,1,45.72,119.38,PI_TXD,,,,,"/>
+<approved hash="113,1,124.991,84.351,FRAME2,,,,,"/>
+<approved hash="113,1,167.403,100.199,SV1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

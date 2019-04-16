@@ -3816,6 +3816,12 @@ female, 64 pins, block, type C, rows AC, grid 5.08 mm</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,124.991,84.351,FRAME1,,,,,"/>
+<approved hash="113,2,124.991,84.351,FRAME2,,,,,"/>
+<approved hash="113,2,170.18,98.8653,SV1,,,,,"/>
+<approved hash="113,2,226.06,98.8653,SV2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

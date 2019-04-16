@@ -12625,6 +12625,17 @@ The new TSR 2 series step-down switching regulators are drop-in replacement for 
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,30.48,152.4,VI,+24V,,,,"/>
+<approved hash="102,1,114.3,152.4,VI,+24V,,,,"/>
+<approved hash="102,1,203.2,152.4,VI,+24V,,,,"/>
+<approved hash="104,1,50.8,152.4,U1,VO,+5V_INT,,,"/>
+<approved hash="104,1,134.62,152.4,U2,VO,+3\,3V,,,"/>
+<approved hash="104,1,223.52,152.4,U3,VO,+5V_EXT,,,"/>
+<approved hash="106,1,53.34,73.66,!PI_RESET,,,,,"/>
+<approved hash="106,1,38.1,73.66,1WIRE,,,,,"/>
+<approved hash="113,1,124.991,84.351,FRAME1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
