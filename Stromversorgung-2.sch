@@ -11600,99 +11600,6 @@ DIN A4, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="con-jack">
-<description>&lt;b&gt;Jacks&lt;/b&gt;&lt;p&gt;
-Power Connectors&lt;br&gt;
-Phone Connectors&lt;br&gt;
-Cinch Connectors&lt;br&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="DCJ0202">
-<description>&lt;b&gt;DC POWER JACK&lt;/b&gt;&lt;p&gt;
-Source: DCJ0202.pdf</description>
-<wire x1="1.65" y1="2.6" x2="-1.65" y2="2.6" width="0" layer="46"/>
-<wire x1="-1.65" y1="2.6" x2="-1.65" y2="3.6" width="0" layer="46"/>
-<wire x1="-1.65" y1="3.6" x2="1.65" y2="3.6" width="0" layer="46"/>
-<wire x1="1.65" y1="3.6" x2="1.65" y2="2.6" width="0" layer="46"/>
-<wire x1="5.3" y1="1.4" x2="4.3" y2="1.4" width="0" layer="46"/>
-<wire x1="4.3" y1="1.4" x2="4.3" y2="-1.4" width="0" layer="46"/>
-<wire x1="4.3" y1="-1.4" x2="5.3" y2="-1.4" width="0" layer="46"/>
-<wire x1="5.3" y1="-1.4" x2="5.3" y2="1.4" width="0" layer="46"/>
-<wire x1="1.4" y1="-3.5" x2="-1.4" y2="-3.5" width="0" layer="46"/>
-<wire x1="-1.4" y1="-3.5" x2="-1.4" y2="-2.5" width="0" layer="46"/>
-<wire x1="-1.4" y1="-2.5" x2="1.4" y2="-2.5" width="0" layer="46"/>
-<wire x1="1.4" y1="-2.5" x2="1.4" y2="-3.5" width="0" layer="46"/>
-<wire x1="-4.3" y1="-10.4" x2="4.3" y2="-10.4" width="0.2032" layer="21"/>
-<wire x1="4.3" y1="-10.4" x2="4.3" y2="3.9" width="0.2032" layer="51"/>
-<wire x1="4.3" y1="3.9" x2="-4.3" y2="3.9" width="0.2032" layer="51"/>
-<wire x1="-4.3" y1="3.9" x2="-4.3" y2="-10.4" width="0.2032" layer="21"/>
-<wire x1="-2.7" y1="3.9" x2="-4.3" y2="3.9" width="0.2032" layer="21"/>
-<wire x1="4.3" y1="3.9" x2="2.7" y2="3.9" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-10.275" x2="-3" y2="-3" width="0.2032" layer="51" style="shortdash"/>
-<wire x1="3" y1="-10.3" x2="3" y2="-3" width="0.2032" layer="51" style="shortdash"/>
-<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.2032" layer="51" style="shortdash"/>
-<wire x1="-0.9" y1="-9" x2="-0.9" y2="-4.5" width="0.2032" layer="51" style="shortdash"/>
-<wire x1="0.9" y1="-9" x2="0.9" y2="-4.5" width="0.2032" layer="51" style="shortdash"/>
-<wire x1="-0.9" y1="-9" x2="0.9" y2="-9" width="0.2032" layer="51" curve="166.57811"/>
-<wire x1="4.3" y1="-10.4" x2="4.3" y2="-2.45" width="0.2032" layer="21"/>
-<wire x1="4.3" y1="2.3" x2="4.3" y2="3.9" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="3.1" drill="1" diameter="2" shape="long" rot="R180"/>
-<pad name="3" x="0" y="-3" drill="1" diameter="2" shape="long" rot="R180"/>
-<pad name="2" x="4.8" y="0" drill="1" diameter="2" shape="long" rot="R90"/>
-<text x="-3.81" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-<text x="-5.08" y="-10.16" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="DC-JACK-SWITCH">
-<wire x1="5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="-2.54" x2="0" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.016" x2="-0.762" y2="-2.54" width="0.1524" layer="94"/>
-<text x="-2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-3.302" y1="-2.54" x2="-1.778" y2="1.27" layer="94"/>
-<pin name="1" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="2" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="3" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<polygon width="0.1524" layer="94">
-<vertex x="2.54" y="-2.54"/>
-<vertex x="2.032" y="-1.27"/>
-<vertex x="3.048" y="-1.27"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="DCJ0202" prefix="J">
-<description>&lt;b&gt;DC POWER JACK&lt;/b&gt;&lt;p&gt;
-Source: DCJ0202.pdf</description>
-<gates>
-<gate name="G$1" symbol="DC-JACK-SWITCH" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DCJ0202">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="con-vg">
 <description>&lt;b&gt;VG Connectors (DIN 41612/DIN 41617)&lt;/b&gt;&lt;p&gt;
 The library contains devices which allow to place the contacts individually or 
@@ -12288,15 +12195,15 @@ The new TSR 2 series step-down switching regulators are drop-in replacement for 
 <part name="R3" library="rcl" deviceset="R-EU_" device="R1206" value="1k5"/>
 <part name="U1" library="TSR" deviceset="TSR2-*" device="" technology="2450" value="TSR2-2450"/>
 <part name="U2" library="TSR" deviceset="TSR1-*" device="" technology="2433" value="TSR1-2433"/>
-<part name="U3" library="TSR" deviceset="TSR2-*" device="" technology="2450" value="TSR2-2450"/>
+<part name="U3" library="TSR" deviceset="TSR1-*" device="" technology="2425" value="TSR1-2425"/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="J1" library="con-jack" deviceset="DCJ0202" device=""/>
 <part name="X2" library="con-vg" deviceset="MAC64L" device=""/>
 <part name="C1" library="rcl" deviceset="CPOL-EU" device="E2-5" value="22µF 50V Low-ESR"/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="E2-5" value="22µF 50V Low-ESR"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R1206" value="12k"/>
 <part name="LED4" library="led" deviceset="LED" device="3MM" value="2mA ge"/>
+<part name="X3" library="con-phoenix-508" deviceset="MSTBA2" device="" value="Ein/Aus"/>
 </parts>
 <sheets>
 <sheet>
@@ -12316,12 +12223,13 @@ The new TSR 2 series step-down switching regulators are drop-in replacement for 
 <instance part="U3" gate="U1" x="213.36" y="152.4"/>
 <instance part="FRAME1" gate="G$1" x="-5.08" y="-5.08"/>
 <instance part="GND1" gate="1" x="15.24" y="111.76"/>
-<instance part="J1" gate="G$1" x="99.06" y="10.16"/>
 <instance part="X2" gate="G$1" x="45.72" y="50.8"/>
 <instance part="C1" gate="G$1" x="17.78" y="147.32"/>
 <instance part="C2" gate="G$1" x="190.5" y="147.32"/>
 <instance part="R4" gate="G$1" x="243.84" y="50.8" rot="R90"/>
 <instance part="LED4" gate="G$1" x="243.84" y="40.64"/>
+<instance part="X3" gate="-1" x="132.08" y="40.64" rot="R180"/>
+<instance part="X3" gate="-2" x="132.08" y="45.72" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -12519,11 +12427,6 @@ The new TSR 2 series step-down switching regulators are drop-in replacement for 
 <junction x="226.06" y="33.02"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="106.68" y1="7.62" x2="111.76" y2="7.62" width="0.1524" layer="91"/>
-<label x="111.76" y="7.62" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="X2" gate="G$1" pin="A29"/>
 <wire x1="38.1" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
 <label x="33.02" y="17.78" size="1.778" layer="95" rot="MR0"/>
@@ -12593,6 +12496,11 @@ The new TSR 2 series step-down switching regulators are drop-in replacement for 
 <wire x1="38.1" y1="22.86" x2="33.02" y2="22.86" width="0.1524" layer="91"/>
 <label x="33.02" y="22.86" size="1.778" layer="95" rot="MR0"/>
 </segment>
+<segment>
+<pinref part="X3" gate="-1" pin="1"/>
+<wire x1="127" y1="40.64" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
+<label x="119.38" y="40.64" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -12615,11 +12523,16 @@ The new TSR 2 series step-down switching regulators are drop-in replacement for 
 <label x="33.02" y="73.66" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="+24V_IN" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="X3" gate="-2" pin="1"/>
+<wire x1="127" y1="45.72" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
+<label x="119.38" y="45.72" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
 <pinref part="X1" gate="-1" pin="1"/>
-<wire x1="106.68" y1="12.7" x2="127" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="12.7" x2="127" y2="12.7" width="0.1524" layer="91"/>
+<label x="119.38" y="12.7" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 </nets>
