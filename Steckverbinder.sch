@@ -885,6 +885,90 @@ GPIO.06 - CAN-Bus Interrupt</text>
 <label x="30.48" y="27.94" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
+<net name="A14" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="A14"/>
+<wire x1="35.56" y1="58.42" x2="30.48" y2="58.42" width="0.1524" layer="91" style="longdash"/>
+<label x="30.48" y="58.42" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="A15" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="A15"/>
+<wire x1="35.56" y1="55.88" x2="30.48" y2="55.88" width="0.1524" layer="91" style="longdash"/>
+<label x="30.48" y="55.88" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="A16" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="A16"/>
+<wire x1="35.56" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91" style="longdash"/>
+<label x="30.48" y="53.34" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="A17" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="A17"/>
+<wire x1="35.56" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91" style="longdash"/>
+<label x="30.48" y="50.8" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="A18" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="A18"/>
+<wire x1="35.56" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91" style="longdash"/>
+<label x="30.48" y="48.26" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="A19" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="A19"/>
+<wire x1="35.56" y1="45.72" x2="30.48" y2="45.72" width="0.1524" layer="91" style="longdash"/>
+<label x="30.48" y="45.72" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="A20" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="A20"/>
+<wire x1="35.56" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91" style="longdash"/>
+<label x="30.48" y="43.18" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="A21" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="A21"/>
+<wire x1="35.56" y1="40.64" x2="30.48" y2="40.64" width="0.1524" layer="91" style="longdash"/>
+<label x="30.48" y="40.64" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="A22" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="A22"/>
+<wire x1="35.56" y1="38.1" x2="30.48" y2="38.1" width="0.1524" layer="91" style="longdash"/>
+<label x="30.48" y="38.1" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="A23" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="A23"/>
+<wire x1="35.56" y1="35.56" x2="30.48" y2="35.56" width="0.1524" layer="91" style="longdash"/>
+<label x="30.48" y="35.56" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="A24" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="A24"/>
+<wire x1="35.56" y1="33.02" x2="30.48" y2="33.02" width="0.1524" layer="91" style="longdash"/>
+<label x="30.48" y="33.02" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="A25" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="A25"/>
+<wire x1="35.56" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91" style="longdash"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

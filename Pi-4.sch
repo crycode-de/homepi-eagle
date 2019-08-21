@@ -12983,7 +12983,7 @@ Jan Kandziora &amp;lt;jjj@gmx.de&amp;gt;</description>
 <plain>
 <text x="162.56" y="20.32" size="1.778" layer="94" align="top-left">Einschubplatine für den Raspberry Pi
 
-Rev. 2019/03</text>
+Rev. 2019/05</text>
 </plain>
 <instances>
 <instance part="X1" gate="G$1" x="195.58" y="119.38"/>

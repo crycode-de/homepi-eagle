@@ -10886,6 +10886,9 @@ Source: www.kingbright.com</description>
 <sheets>
 <sheet>
 <plain>
+<text x="160.02" y="15.24" size="2.54" layer="94" align="top-left">HomePi - CAN-Bus Platine
+
+Rev. 2019/05</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-5.08" y="-5.08"/>
@@ -11772,6 +11775,9 @@ Source: www.kingbright.com</description>
 </sheet>
 <sheet>
 <plain>
+<text x="160.02" y="15.24" size="2.54" layer="94" align="top-left">HomePi - CAN-Bus Platine
+
+Rev. 2019/05</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="-5.08" y="-5.08"/>
@@ -12462,4 +12468,10 @@ Source: www.kingbright.com</description>
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

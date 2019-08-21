@@ -12749,6 +12749,9 @@ Picofuse/slow Littlefuse</description>
 <sheets>
 <sheet>
 <plain>
+<text x="160.02" y="15.24" size="2.54" layer="94" align="top-left">HomePi - Spannungsversorgung
+
+Rev. 2019/05</text>
 </plain>
 <instances>
 <instance part="X1" gate="-1" x="132.08" y="25.4" rot="R180"/>
@@ -13110,4 +13113,10 @@ Picofuse/slow Littlefuse</description>
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
