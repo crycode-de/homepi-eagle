@@ -12331,10 +12331,15 @@ Source: avr.lbr</description>
 <part name="U$1" library="cryCode-Logo" deviceset="LOGO" device="30MM"/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C1206" value="10µF/25V"/>
+<part name="C17" library="rcl" deviceset="C-EU" device="C1206" value="10µF/25V"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="160.02" y="15.24" size="2.54" layer="94" align="top-left">HomePi - CAN-Hat
+
+Rev. 2019/08</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="-5.08" y="-5.08"/>
@@ -12353,7 +12358,7 @@ Source: avr.lbr</description>
 <instance part="C7" gate="G$1" x="33.02" y="149.86"/>
 <instance part="C6" gate="G$1" x="15.24" y="149.86"/>
 <instance part="DISPLAY-POWER" gate="G$1" x="60.96" y="119.38"/>
-<instance part="U$1" gate="G$1" x="167.64" y="12.7"/>
+<instance part="U$1" gate="G$1" x="236.22" y="25.4"/>
 <instance part="JP2" gate="G$1" x="134.62" y="76.2"/>
 <instance part="JP3" gate="G$1" x="134.62" y="58.42"/>
 </instances>
@@ -12744,6 +12749,9 @@ Source: avr.lbr</description>
 </sheet>
 <sheet>
 <plain>
+<text x="160.02" y="15.24" size="2.54" layer="94" align="top-left">HomePi - CAN-Hat
+
+Rev. 2019/08</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="-5.08" y="-5.08"/>
@@ -12780,6 +12788,8 @@ Source: avr.lbr</description>
 <instance part="PB0" gate="G$1" x="137.16" y="60.96"/>
 <instance part="PC3" gate="G$1" x="101.6" y="40.64"/>
 <instance part="JP1" gate="A" x="68.58" y="25.4" rot="R270"/>
+<instance part="C16" gate="G$1" x="129.54" y="154.94"/>
+<instance part="C17" gate="G$1" x="144.78" y="154.94"/>
 </instances>
 <busses>
 </busses>
@@ -12933,6 +12943,16 @@ Source: avr.lbr</description>
 <label x="147.32" y="104.14" size="1.778" layer="95" rot="MR0"/>
 <wire x1="154.94" y1="104.14" x2="147.32" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="AT-ISP" gate="A" pin="1"/>
+</segment>
+<segment>
+<pinref part="C17" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="149.86" x2="144.78" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="147.32" x2="129.54" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="147.32" x2="129.54" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="147.32" x2="124.46" y2="147.32" width="0.1524" layer="91"/>
+<junction x="129.54" y="147.32"/>
+<label x="124.46" y="147.32" size="2.54" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -13284,6 +13304,16 @@ Source: avr.lbr</description>
 <wire x1="33.02" y1="149.86" x2="33.02" y2="154.94" width="0.1524" layer="91"/>
 <label x="33.02" y="154.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="157.48" x2="129.54" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="160.02" x2="144.78" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="160.02" x2="144.78" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="160.02" x2="124.46" y2="160.02" width="0.1524" layer="91"/>
+<junction x="129.54" y="160.02"/>
+<label x="124.46" y="160.02" size="2.54" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="!PI_ON" class="0">
 <segment>
@@ -13355,4 +13385,10 @@ Source: avr.lbr</description>
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
