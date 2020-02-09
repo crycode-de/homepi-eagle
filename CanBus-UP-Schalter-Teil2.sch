@@ -7316,11 +7316,11 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <part name="IC3" library="mcp2515_2551_2562" deviceset="MCP2515" device="T-I/SO"/>
 <part name="U1" library="mcp2515_2551_2562" deviceset="MCP2562" device="-E/SN"/>
 <part name="Q1" library="crystal-smd" deviceset="EUROQUARTZ-M*" device="MJ"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C1206" value="22pF"/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C1206" value="22pF"/>
+<part name="C3" library="rcl" deviceset="R-EU_" device="R0805" value="22pF"/>
+<part name="C4" library="rcl" deviceset="R-EU_" device="R0805" value="22pF"/>
 <part name="Q2" library="crystal-smd" deviceset="EUROQUARTZ-M*" device="MJ"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C1206" value="22pF"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C1206" value="22pF"/>
+<part name="C5" library="rcl" deviceset="R-EU_" device="R0805" value="22pF"/>
+<part name="C6" library="rcl" deviceset="R-EU_" device="R0805" value="22pF"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
 <part name="Q3" library="transistor-npn" deviceset="BC847*" device="SMD" technology="A"/>
 <part name="Q4" library="transistor-npn" deviceset="BC847*" device="SMD" technology="A"/>
@@ -7483,9 +7483,9 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <wire x1="119.38" y1="91.44" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
 <junction x="116.84" y="91.44"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="99.06" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="93.98" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="86.36" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="81.28" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="99.06" x2="109.22" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="91.44" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="91.44" x2="109.22" y2="91.44" width="0.1524" layer="91"/>
@@ -7501,9 +7501,9 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <wire x1="304.8" y1="142.24" x2="307.34" y2="142.24" width="0.1524" layer="91"/>
 <junction x="307.34" y="142.24"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="312.42" y1="134.62" x2="314.96" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="139.7" x2="314.96" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="312.42" y1="147.32" x2="314.96" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="152.4" x2="314.96" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="134.62" x2="314.96" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="142.24" x2="314.96" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="142.24" x2="314.96" y2="142.24" width="0.1524" layer="91"/>
@@ -7663,7 +7663,7 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <wire x1="132.08" y1="99.06" x2="124.46" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="99.06" x2="124.46" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="99.06" x2="124.46" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="104.14" x2="124.46" y2="99.06" width="0.1524" layer="91"/>
 <junction x="124.46" y="99.06"/>
 </segment>
 </net>
@@ -7676,7 +7676,7 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <wire x1="132.08" y1="86.36" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="86.36" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="86.36" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="91.44" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
 <junction x="124.46" y="86.36"/>
 </segment>
 </net>
@@ -7686,7 +7686,7 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <pinref part="Q2" gate="G$1" pin="1"/>
 <wire x1="299.72" y1="134.62" x2="299.72" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="304.8" y1="134.62" x2="299.72" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="129.54" x2="299.72" y2="134.62" width="0.1524" layer="91"/>
 <junction x="299.72" y="134.62"/>
 <pinref part="IC3" gate="G$1" pin="OSC2"/>
 </segment>
@@ -7699,7 +7699,7 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <wire x1="292.1" y1="147.32" x2="299.72" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="147.32" x2="299.72" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="304.8" y1="147.32" x2="299.72" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="142.24" x2="299.72" y2="147.32" width="0.1524" layer="91"/>
 <junction x="299.72" y="147.32"/>
 <pinref part="IC3" gate="G$1" pin="OSC1"/>
 </segment>
@@ -7726,18 +7726,28 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <wire x1="182.88" y1="139.7" x2="190.5" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="PC1" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="139.7" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
-<label x="170.18" y="139.7" size="1.778" layer="95" rot="MR0"/>
+<pinref part="IC2" gate="G$1" pin="PC1(ADC1)"/>
+<wire x1="193.04" y1="109.22" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
+<label x="198.12" y="109.22" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="N$5" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="167.64" x2="172.72" y2="167.64" width="0.1524" layer="91"/>
 <label x="170.18" y="167.64" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="PC0" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="PC0(ADC0)"/>
+<wire x1="193.04" y1="111.76" x2="198.12" y2="111.76" width="0.1524" layer="91"/>
+<label x="198.12" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="139.7" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
+<label x="170.18" y="139.7" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 </nets>
