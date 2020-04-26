@@ -3283,7 +3283,7 @@ Rev. 2019/05</text>
 <pinref part="X4" gate="G$1" pin="A23"/>
 </segment>
 </net>
-<net name="A24" class="0">
+<net name="+12V" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="A24"/>
 <wire x1="22.86" y1="86.36" x2="17.78" y2="86.36" width="0.1524" layer="91"/>
@@ -3304,8 +3304,6 @@ Rev. 2019/05</text>
 <label x="203.2" y="86.36" size="1.778" layer="95" rot="MR0"/>
 <pinref part="X4" gate="G$1" pin="A24"/>
 </segment>
-</net>
-<net name="A25" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="A25"/>
 <wire x1="22.86" y1="83.82" x2="17.78" y2="83.82" width="0.1524" layer="91"/>
@@ -4047,7 +4045,7 @@ Rev. 2019/05</text>
 <pinref part="SV2" gate="1" pin="45"/>
 </segment>
 </net>
-<net name="A24" class="0">
+<net name="+12V" class="0">
 <segment>
 <wire x1="33.02" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
 <label x="27.94" y="86.36" size="1.778" layer="95" rot="MR0"/>
@@ -4058,8 +4056,6 @@ Rev. 2019/05</text>
 <label x="83.82" y="86.36" size="1.778" layer="95" rot="MR0"/>
 <pinref part="SV2" gate="1" pin="47"/>
 </segment>
-</net>
-<net name="A25" class="0">
 <segment>
 <wire x1="33.02" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
 <label x="27.94" y="83.82" size="1.778" layer="95" rot="MR0"/>
