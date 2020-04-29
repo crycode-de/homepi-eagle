@@ -8294,8 +8294,8 @@ DIN A4, landscape with location and doc. field</description>
 </classes>
 <parts>
 <part name="IC1" library="lm2937" deviceset="LM2937IMP-*" device="" technology="5.0"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="10µF Low ESR"/>
 <part name="SV1" library="con-lstb" deviceset="MA06-1" device=""/>
 <part name="IC2" library="atmel" deviceset="MEGA8" device="-AI"/>
 <part name="IC3" library="mcp2515_2551_2562" deviceset="MCP2515" device="T-I/SO"/>
@@ -8316,9 +8316,9 @@ DIN A4, landscape with location and doc. field</description>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="4k7"/>
-<part name="RN1" library="resistor-dil" deviceset="4R-N" device="0603-ARC"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="RN1" library="resistor-dil" deviceset="4R-N" device="0603-ARC" value="10k"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="LSP2" library="solpad" deviceset="LSP13" device=""/>
 <part name="LSP1" library="solpad" deviceset="LSP13" device=""/>
 <part name="PB0" library="solpad" deviceset="LSP13" device=""/>

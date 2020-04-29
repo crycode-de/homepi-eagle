@@ -15292,7 +15292,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="F1" library="fuse" deviceset="LITTLEFUSE" device="" value="30V / 2,5A"/>
 <part name="IC1" library="FaBo-Sensor" deviceset="TI-INA226" device=""/>
 <part name="R0" library="rcl" deviceset="R-EU_" device="R2512" value="0,02 1% 5W"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C1206"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="A1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_NO-SILK"/>
 <part name="A0" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_NO-SILK"/>
 <part name="U4" library="TSR" deviceset="TSR1-*" device="" technology="24120"/>

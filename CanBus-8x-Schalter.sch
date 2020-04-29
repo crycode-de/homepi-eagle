@@ -10421,14 +10421,14 @@ Source: www.kingbright.com</description>
 </classes>
 <parts>
 <part name="IC1" library="lm2937" deviceset="LM2937IMP-*" device="" technology="5.0"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="10µF Low ESR"/>
 <part name="IC3" library="mcp2515_2551_2562" deviceset="MCP2515" device="T-I/SO"/>
 <part name="IC4" library="mcp2515_2551_2562" deviceset="MCP2562" device="-E/SN"/>
-<part name="Q1" library="crystal-smd" deviceset="EUROQUARTZ-M*" device="MJ"/>
+<part name="Q1" library="crystal-smd" deviceset="EUROQUARTZ-M*" device="MJ" value="16MHz"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="22pF"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="22pF"/>
-<part name="Q2" library="crystal-smd" deviceset="EUROQUARTZ-M*" device="MJ"/>
+<part name="Q2" library="crystal-smd" deviceset="EUROQUARTZ-M*" device="MJ" value="16MHz"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="22pF"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="22pF"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
@@ -10437,9 +10437,9 @@ Source: www.kingbright.com</description>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="4k7"/>
-<part name="RN1" library="resistor-dil" deviceset="4R-N" device="0603-ARC"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="RN1" library="resistor-dil" deviceset="4R-N" device="0603-ARC" value="10k"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="SDA" library="solpad" deviceset="LSP13" device=""/>
 <part name="SCL" library="solpad" deviceset="LSP13" device=""/>
 <part name="+5V" library="solpad" deviceset="LSP13" device=""/>
@@ -10454,9 +10454,9 @@ Source: www.kingbright.com</description>
 <part name="X3" library="con-phoenix-508" deviceset="MKDSN1,5/3-5,08" device=""/>
 <part name="K4" library="relay_finder_36_11" deviceset="36.11" device=""/>
 <part name="X4" library="con-phoenix-508" deviceset="MKDSN1,5/3-5,08" device=""/>
-<part name="RN2" library="resistor-dil" deviceset="4R-N" device="0603-ARC"/>
-<part name="C12" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C13" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="RN2" library="resistor-dil" deviceset="4R-N" device="0603-ARC" value="10k"/>
+<part name="C12" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="J1" library="can-bus" deviceset="RJ45-CAN" device=""/>
 <part name="K5" library="relay_finder_36_11" deviceset="36.11" device=""/>
 <part name="K6" library="relay_finder_36_11" deviceset="36.11" device=""/>
@@ -10469,12 +10469,12 @@ Source: www.kingbright.com</description>
 <part name="IC2" library="atmel" deviceset="ATMEGA644" device="A" value="ATMEGA1284P"/>
 <part name="IC5" library="uln-udn" deviceset="ULN2803A" device="-SO18W"/>
 <part name="FRAME3" library="frames" deviceset="A4L-LOC" device=""/>
-<part name="RN3" library="resistor-dil" deviceset="4R-N" device="0603-ARC"/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="RN4" library="resistor-dil" deviceset="4R-N" device="0603-ARC"/>
-<part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="C17" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="RN3" library="resistor-dil" deviceset="4R-N" device="0603-ARC" value="10k"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="RN4" library="resistor-dil" deviceset="4R-N" device="0603-ARC" value="10k"/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="C17" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="X9" library="con-phoenix-254" deviceset="MPT4" device=""/>
 <part name="X10" library="con-phoenix-254" deviceset="MPT4" device=""/>
 <part name="X11" library="con-phoenix-254" deviceset="MPT4" device=""/>

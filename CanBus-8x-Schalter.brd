@@ -3094,11 +3094,11 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="rcl" package="C0805" value="" x="59.69" y="39.6875" smashed="yes" rot="R180">
+<element name="C1" library="rcl" package="C0805" value="100nF" x="59.69" y="39.6875" smashed="yes" rot="R180">
 <attribute name="NAME" x="61.2775" y="38.735" size="0.8128" layer="25" font="vector" align="top-right"/>
 <attribute name="VALUE" x="60.96" y="42.2275" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C2" library="rcl" package="C0805" value="" x="59.69" y="48.5775" smashed="yes" rot="R180">
+<element name="C2" library="rcl" package="C0805" value="10µF Low ESR" x="59.69" y="48.5775" smashed="yes" rot="R180">
 <attribute name="NAME" x="61.595" y="48.5775" size="0.8128" layer="25" font="vector" align="center-left"/>
 <attribute name="VALUE" x="60.96" y="51.1175" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -3114,7 +3114,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="55.118" y="31.623" size="1.27" layer="27" ratio="10"/>
 <attribute name="NAME" x="58.674" y="36.195" size="0.8128" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="Q1" library="crystal-smd" package="MJ-5X3.2" value="EUROQUARTZ-MMJ" x="25.273" y="32.4485" smashed="yes">
+<element name="Q1" library="crystal-smd" package="MJ-5X3.2" value="16MHz" x="25.273" y="32.4485" smashed="yes">
 <attribute name="REICHELT" value="16,000000-MJ" x="25.273" y="32.4485" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="25.2355" y="30.456" size="0.8128" layer="25" font="vector" align="top-center"/>
 <attribute name="VALUE" x="22.352" y="30.2655" size="1.27" layer="27" align="top-left"/>
@@ -3127,7 +3127,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="29.1465" y="30.48" size="0.8128" layer="25" font="vector" align="top-center"/>
 <attribute name="VALUE" x="26.67" y="33.7185" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="Q2" library="crystal-smd" package="MJ-5X3.2" value="EUROQUARTZ-MMJ" x="47.625" y="47.117" smashed="yes">
+<element name="Q2" library="crystal-smd" package="MJ-5X3.2" value="16MHz" x="47.625" y="47.117" smashed="yes">
 <attribute name="REICHELT" value="16,000000-MJ" x="38.735" y="56.007" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="47.5875" y="48.9345" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="44.704" y="44.934" size="1.27" layer="27" align="top-left"/>
@@ -3163,7 +3163,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="39.6875" y="31.75" size="0.8128" layer="25" font="vector" align="center-right"/>
 <attribute name="VALUE" x="40.9575" y="29.21" size="1.27" layer="27"/>
 </element>
-<element name="RN1" library="resistor-dil" package="0603-ARC" value="" x="8.89" y="32.0675" smashed="yes" rot="R270">
+<element name="RN1" library="resistor-dil" package="0603-ARC" value="10k" x="8.89" y="32.0675" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="unknown" x="8.89" y="32.0675" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="8.89" y="32.0675" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="8.89" y="32.0675" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3171,11 +3171,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="8.89" y="30.1625" size="0.8128" layer="25" font="vector" align="top-center"/>
 <attribute name="VALUE" x="10.16" y="33.9725" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="C10" library="rcl" package="C0805" value="100n" x="8.255" y="33.02" smashed="yes" rot="MR0">
+<element name="C10" library="rcl" package="C0805" value="100nF" x="8.255" y="33.02" smashed="yes" rot="MR0">
 <attribute name="NAME" x="10.795" y="33.02" size="0.8128" layer="26" font="vector" rot="MR0" align="center-right"/>
 <attribute name="VALUE" x="9.525" y="30.48" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="C11" library="rcl" package="C0805" value="100n" x="8.255" y="31.115" smashed="yes" rot="MR0">
+<element name="C11" library="rcl" package="C0805" value="100nF" x="8.255" y="31.115" smashed="yes" rot="MR0">
 <attribute name="NAME" x="10.795" y="31.115" size="0.8128" layer="26" font="vector" rot="MR0" align="center-right"/>
 <attribute name="VALUE" x="9.525" y="28.575" size="1.27" layer="28" rot="MR0"/>
 </element>
@@ -3217,7 +3217,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="62.8764" y="6.6675" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="64.4525" y="8.255" size="1.27" layer="27"/>
 </element>
-<element name="RN2" library="resistor-dil" package="0603-ARC" value="" x="8.89" y="37.1475" smashed="yes" rot="R270">
+<element name="RN2" library="resistor-dil" package="0603-ARC" value="10k" x="8.89" y="37.1475" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="11.43" y="37.1475" size="1.27" layer="27" ratio="15" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="11.43" y="37.1475" size="1.27" layer="27" ratio="15" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="11.43" y="37.1475" size="1.27" layer="27" ratio="15" rot="R270" display="off"/>
@@ -3225,11 +3225,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="8.89" y="35.2425" size="0.8128" layer="25" font="vector" align="top-center"/>
 <attribute name="VALUE" x="10.16" y="39.0525" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="C12" library="rcl" package="C0805" value="100n" x="8.255" y="38.1" smashed="yes" rot="MR0">
+<element name="C12" library="rcl" package="C0805" value="100nF" x="8.255" y="38.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="10.795" y="38.1" size="0.8128" layer="26" font="vector" rot="MR0" align="center-right"/>
 <attribute name="VALUE" x="9.525" y="35.56" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="C13" library="rcl" package="C0805" value="100n" x="8.255" y="36.195" smashed="yes" rot="MR0">
+<element name="C13" library="rcl" package="C0805" value="100nF" x="8.255" y="36.195" smashed="yes" rot="MR0">
 <attribute name="NAME" x="10.795" y="36.195" size="0.8128" layer="26" font="vector" rot="MR0" align="center-right"/>
 <attribute name="VALUE" x="9.525" y="33.655" size="1.27" layer="28" rot="MR0"/>
 </element>
@@ -3276,7 +3276,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="41.402" y="40.259" size="1.27" layer="28" ratio="10" rot="MR90"/>
 <attribute name="NAME" x="42.799" y="40.767" size="0.8128" layer="26" font="vector" rot="MR180"/>
 </element>
-<element name="RN3" library="resistor-dil" package="0603-ARC" value="" x="8.89" y="42.8625" smashed="yes" rot="R270">
+<element name="RN3" library="resistor-dil" package="0603-ARC" value="10k" x="8.89" y="42.8625" smashed="yes" rot="R270">
 <attribute name="OC_FARNELL" value="unknown" x="24.13" y="49.2125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="24.13" y="49.2125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="24.13" y="49.2125" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3284,15 +3284,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="8.89" y="40.9575" size="0.8128" layer="25" font="vector" align="top-center"/>
 <attribute name="VALUE" x="10.16" y="44.7675" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="C14" library="rcl" package="C0805" value="100n" x="8.255" y="43.815" smashed="yes" rot="MR0">
+<element name="C14" library="rcl" package="C0805" value="100nF" x="8.255" y="43.815" smashed="yes" rot="MR0">
 <attribute name="NAME" x="10.795" y="43.815" size="0.8128" layer="26" font="vector" rot="MR0" align="center-right"/>
 <attribute name="VALUE" x="9.525" y="41.275" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="C15" library="rcl" package="C0805" value="100n" x="8.255" y="41.91" smashed="yes" rot="MR0">
+<element name="C15" library="rcl" package="C0805" value="100nF" x="8.255" y="41.91" smashed="yes" rot="MR0">
 <attribute name="NAME" x="10.795" y="41.91" size="0.8128" layer="26" font="vector" rot="MR0" align="center-right"/>
 <attribute name="VALUE" x="9.525" y="39.37" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="RN4" library="resistor-dil" package="0603-ARC" value="" x="8.89" y="47.9425" smashed="yes" rot="R270">
+<element name="RN4" library="resistor-dil" package="0603-ARC" value="10k" x="8.89" y="47.9425" smashed="yes" rot="R270">
 <attribute name="OC_FARNELL" value="unknown" x="-5.08" y="59.3725" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-5.08" y="59.3725" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="-5.08" y="59.3725" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3300,11 +3300,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="8.89" y="46.0375" size="0.8128" layer="25" font="vector" align="top-center"/>
 <attribute name="VALUE" x="10.16" y="49.8475" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="C16" library="rcl" package="C0805" value="100n" x="8.255" y="48.895" smashed="yes" rot="MR0">
+<element name="C16" library="rcl" package="C0805" value="100nF" x="8.255" y="48.895" smashed="yes" rot="MR0">
 <attribute name="NAME" x="10.795" y="48.895" size="0.8128" layer="26" font="vector" rot="MR0" align="center-right"/>
 <attribute name="VALUE" x="9.525" y="46.355" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="C17" library="rcl" package="C0805" value="100n" x="8.255" y="46.99" smashed="yes" rot="MR0">
+<element name="C17" library="rcl" package="C0805" value="100nF" x="8.255" y="46.99" smashed="yes" rot="MR0">
 <attribute name="NAME" x="10.795" y="46.99" size="0.8128" layer="26" font="vector" rot="MR0" align="center-right"/>
 <attribute name="VALUE" x="9.525" y="44.45" size="1.27" layer="28" rot="MR0"/>
 </element>

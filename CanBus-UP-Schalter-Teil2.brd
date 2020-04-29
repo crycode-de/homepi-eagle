@@ -1854,11 +1854,11 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="rcl" package="C0805" value="" x="-18.415" y="-0.635" smashed="yes" rot="R90">
+<element name="C1" library="rcl" package="C0805" value="100nF" x="-18.415" y="-0.635" smashed="yes" rot="R90">
 <attribute name="NAME" x="-18.415" y="-2.54" size="1.016" layer="25" font="vector" align="top-center"/>
 <attribute name="VALUE" x="-15.875" y="-1.905" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C2" library="rcl" package="C0805" value="" x="-9.525" y="-0.635" smashed="yes" rot="R90">
+<element name="C2" library="rcl" package="C0805" value="10µF Low ESR" x="-9.525" y="-0.635" smashed="yes" rot="R90">
 <attribute name="NAME" x="-9.525" y="-2.54" size="1.016" layer="25" font="vector" align="top-center"/>
 <attribute name="VALUE" x="-6.985" y="-1.905" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -1955,7 +1955,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="5.08" y="22.225" size="1.016" layer="25" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="7.62" y="19.685" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="RN1" library="resistor-dil" package="0603-ARC" value="" x="0" y="-8.255" smashed="yes" rot="R180">
+<element name="RN1" library="resistor-dil" package="0603-ARC" value="10k" x="0" y="-8.255" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="unknown" x="0" y="-8.255" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="0" y="-8.255" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="0" y="-8.255" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1963,11 +1963,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="0" y="-9.525" size="1.016" layer="25" font="vector" align="top-center"/>
 <attribute name="VALUE" x="1.905" y="-9.525" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C10" library="rcl" package="C0805" value="" x="3.81" y="-8.255" smashed="yes">
+<element name="C10" library="rcl" package="C0805" value="100nF" x="3.81" y="-8.255" smashed="yes">
 <attribute name="NAME" x="3.81" y="-9.525" size="1.016" layer="25" font="vector" align="top-center"/>
 <attribute name="VALUE" x="2.54" y="-10.795" size="1.27" layer="27"/>
 </element>
-<element name="C11" library="rcl" package="C0805" value="" x="-3.81" y="-8.255" smashed="yes" rot="R180">
+<element name="C11" library="rcl" package="C0805" value="100nF" x="-3.81" y="-8.255" smashed="yes" rot="R180">
 <attribute name="NAME" x="-3.81" y="-9.525" size="1.016" layer="25" font="vector" align="top-center"/>
 <attribute name="VALUE" x="-2.54" y="-5.715" size="1.27" layer="27" rot="R180"/>
 </element>
