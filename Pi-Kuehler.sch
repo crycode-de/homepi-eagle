@@ -8500,7 +8500,7 @@ There are variants for mixed pads/vias, pads only and vias.</description>
 </class>
 </classes>
 <parts>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="330"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="1k2"/>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_1206" value="2mA bl"/>
 <part name="X1" library="con-vg" deviceset="MAC64L" device=""/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
