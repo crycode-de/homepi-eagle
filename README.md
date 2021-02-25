@@ -6,6 +6,8 @@ Dieses Repository beinhaltet die Eagle-Dateien für die Hardware des HomePi Proj
 
 Das gesamte HomePi Projekt wird hier beschrieben: [https://crycode.de/category/homepi](https://crycode.de/category/homepi)
 
+**Die Verwendung erfolgt grundsätzlich auf eigenes Risiko und ohne Gewähr!**
+
 ## Lizenz
 
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
