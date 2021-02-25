@@ -72,10 +72,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="160" y2="0" width="0" layer="20"/>
-<wire x1="160" y1="0" x2="160" y2="100" width="0" layer="20"/>
-<wire x1="160" y1="100" x2="0" y2="100" width="0" layer="20"/>
-<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="25.38" y2="0" width="0" layer="20"/>
+<wire x1="25.38" y1="0" x2="25.38" y2="66.98" width="0" layer="20"/>
+<wire x1="25.38" y1="66.98" x2="0" y2="66.98" width="0" layer="20"/>
+<wire x1="0" y1="66.98" x2="0" y2="0" width="0" layer="20"/>
 <text x="5.08" y="57.15" size="1.778" layer="1" font="vector" ratio="15" rot="R90" align="top-left">raus</text>
 <text x="12.7" y="57.15" size="1.778" layer="1" font="vector" ratio="15" rot="R90">rein</text>
 <text x="20.32" y="57.15" size="1.778" layer="1" font="vector" ratio="15" rot="R90">L</text>
