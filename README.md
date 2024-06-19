@@ -12,4 +12,4 @@ Das gesamte HomePi Projekt wird hier beschrieben: [https://crycode.de/category/h
 
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
-Copyright (c) 2015-2021 Peter Müller <peter@crycode.de> [https://crycode.de/](https://crycode.de/)
+Copyright (c) 2015-2024 Peter Müller <peter@crycode.de> [https://crycode.de/](https://crycode.de/)
