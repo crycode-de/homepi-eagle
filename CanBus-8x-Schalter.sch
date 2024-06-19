@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10490,6 +10490,7 @@ Source: www.kingbright.com</description>
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="1k2"/>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_1206" value="2mA bl"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="4,7k"/>
 </parts>
 <sheets>
 <sheet>
@@ -10534,6 +10535,7 @@ Source: www.kingbright.com</description>
 <instance part="JP1" gate="G$1" x="33.02" y="91.44"/>
 <instance part="R3" gate="G$1" x="127" y="58.42"/>
 <instance part="LED1" gate="G$1" x="137.16" y="58.42" rot="R90"/>
+<instance part="R4" gate="G$1" x="162.56" y="157.48" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -10665,6 +10667,11 @@ Source: www.kingbright.com</description>
 <wire x1="193.04" y1="53.34" x2="195.58" y2="53.34" width="0.1524" layer="91"/>
 <junction x="193.04" y="53.34"/>
 <label x="195.58" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="162.56" x2="162.56" y2="165.1" width="0.1524" layer="91"/>
+<label x="162.56" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -10929,8 +10936,12 @@ Source: www.kingbright.com</description>
 <net name="CS" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="CS"/>
-<wire x1="172.72" y1="144.78" x2="177.8" y2="144.78" width="0.1524" layer="91"/>
-<label x="172.72" y="144.78" size="1.778" layer="95" rot="MR0"/>
+<wire x1="160.02" y1="144.78" x2="162.56" y2="144.78" width="0.1524" layer="91"/>
+<label x="160.02" y="144.78" size="1.778" layer="95" rot="MR0"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="144.78" x2="177.8" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="152.4" x2="162.56" y2="144.78" width="0.1524" layer="91"/>
+<junction x="162.56" y="144.78"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="(PCINT12/OC0B/!SS!)PB4"/>
