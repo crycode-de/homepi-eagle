@@ -2,17 +2,14 @@
 
 Dieses Repository beinhaltet die Eagle-Dateien für die Hardware des HomePi Projektes.
 
-Das gesamte HomePi Projekt wird hier beschrieben: https://crycode.de/category/homepi
+![HomePi](https://crycode.de/wp-content/uploads/2019/08/homepi-hardware-titelbild.jpg)
+
+Das gesamte HomePi Projekt wird hier beschrieben: [https://crycode.de/category/homepi](https://crycode.de/category/homepi)
+
+**Die Verwendung erfolgt grundsätzlich auf eigenes Risiko und ohne Gewähr!**
 
 ## Lizenz
 
-Copyright (C) 2015-2019 Peter Müller, peter@crycode.de, https://crycode.de
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
-**GPL Version 3**
-
-Dieses Programm ist freie Software. Sie können es unter den Bedingungen der GNU General Public License, wie von der Free Software Foundation veröffentlicht, weitergeben und/oder modifizieren, entweder gemäß Version 3 der Lizenz oder (nach Ihrer Option) jeder späteren Version.
-
-Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, dass es Ihnen von Nutzen sein wird, aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite Garantie der MARKTREIFE oder der VERWENDBARKEIT FÜR EINEN BESTIMMTEN ZWECK. Details finden Sie in der GNU General Public License.
-
-Sie sollten ein Exemplar der GNU General Public License zusammen mit diesem Programm erhalten haben. Falls nicht, siehe <http://www.gnu.org/licenses/>. 
-
+Copyright (c) 2015-2021 Peter Müller <peter@crycode.de> [https://crycode.de/](https://crycode.de/)
